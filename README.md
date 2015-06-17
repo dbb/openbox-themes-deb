@@ -16,16 +16,24 @@ whole collection is not. Thus I created this archive to serve as a mirror of
 these classic themes.
 
 ## Installation
+For a quick 'n' dirty installation of all 99 themes, just run the following:
 
-See the [Releases page](https://github.com/dbb/openbox-themes-deb/releases) for installation/uninstallation info. 
+```bash
+curl -LO https://github.com/dbb/openbox-themes-deb/raw/master/install.sh
+chmod +x install.sh
+./install.sh
+```
 
 For individual themes, you just need to put the theme's named directory in `/usr/share/themes` for global use or `~/.themes` for single-user use.
 
 E.g., to install the `AbsE` theme:
 
 ```
-cp -r AbsE ~/.themes
+git clone https://github.com/dbb/openbox-themes-deb.git
+cp -r openbox-themes-deb/AbsE ~/.themes
 ```
+
+See the [Releases page](https://github.com/dbb/openbox-themes-deb/releases) for installation/uninstallation info. 
 
 ## Copyright
 
@@ -67,6 +75,11 @@ Fog-mine        Mist-Ashen      Real-milk
 
 There is a plaintext file with one theme per line (for scripting purposes, etc.) called [themelist.txt](https://github.com/dbb/openbox-themes-deb/blob/master/themelist.txt). 
 
-## Preview
+## TODO
 
+### Image previews
 I'm working on it... but don't hold your breath. It's probably easier to install them and use `obconf` to preview, or to do an image search for "[themename] openbox theme".
+
+### OBT archives
+I plan to provide a separate release as a collection of *just* `.obt` files.
+
