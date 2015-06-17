@@ -1,0 +1,95 @@
+! title: peptide
+! author: safari_al
+! email: tr@slackzone.org
+! comment: this has gone way beyond polymers
+
+menu.title.bg: flat gradient pyramid
+menu.title.bg.color: #000063
+menu.title.bg.colorTo: #000000
+menu.title.text.color: #ffffff
+
+menu.items.bg: flat solid
+menu.items.bg.color: #000000
+menu.items.text.color: #ffffff
+menu.items.disabled.text.color: #0d009f
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #0d009f
+menu.items.active.text.color: #ffffff
+
+window.active.title.bg: flat gradient pyramid
+window.active.title.bg.color: #000063
+window.active.title.bg.colorTo: #000000
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #000000
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #ffffff
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #000000
+
+window.active.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #0d009f
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #000000
+
+window.frame.focus: flat solid
+window.frame.focus.bg.color: #000000
+window.active.client.color: #000000
+window.frame.unfocus: flat solid
+window.frame.unfocus.bg.color: #000000
+window.inactive.client.color: #000000
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #000000
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #000000
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #000000
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #000000
+
+border.color:  #0d009f
+*font:    sans:pixelsize=11
+*justify: center
+
+border.width:  1
+padding.width: 1
+window.client.padding.width: 1
+window.handle.width:  2
+
+!rootCommand: bsetbg -f ~/.blackbox/backgrounds/peptide.png
+
+
+! every family thought they needed to have a bbpager during the cold war
+
+bbpager.frame: flat solid
+bbpager.frame.bg.color: #000000
+
+bbpager.desktop: parentrelative
+bbpager.desktop.focus: parentrelative
+
+bbpager.window: flat solid
+bbpager.window.bg.color: #000063
+bbpager.window.focus: flat solid
+bbpager.window.focus.bg.color: #0d009f
+
+bbpager.desktop.focusStyle: border
+bbpager.window.focusStyle: border
+
+bbpager.active.desktop.bg.border.color: #0d009f
+bbpager.active.window.bg.border.color: #0d009f
+bbpager.inactive.window.bg.border.color:  #000000
+
+bbpager.bevelWidth: 1
+
+! like a b-grade sci-fi flick.

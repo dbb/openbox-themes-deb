@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Simple-Red
+Type=X-GNOME-Metatheme
+Comment=feh
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Simple-Red
+MetacityTheme=Mist
+IconTheme=Industrial-Light

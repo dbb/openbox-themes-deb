@@ -1,0 +1,175 @@
+pixmap_path "/opt/gnome2/share/icons/Gorilla/scalable/stock"
+
+style "icon-style" {
+  stock["gnome-stock-about"] = {{ "stock_about.svg" }}
+  stock["gnome-stock-volume"] = {{ "stock_volume.svg" }}
+  #stock["gnome-stock-volume"] = {{ "stock_balance.svg" }}
+  stock["gnome-stock-mic"] = {{ "stock_mic.svg" }}
+  stock["gnome-stock-line-in"] = {{ "stock_line-in.svg" }}
+  stock["gnome-stock-attach"] = {{ "stock_attach.svg" }}
+  stock["gnome-stock-book-blue"] = {{ "stock_book.svg" }}
+  stock["gnome-stock-book-green"] = {{ "stock_book.svg" }}
+  stock["gnome-stock-book-red"] = {{ "stock_book.svg" }}
+  stock["gnome-stock-book-yellow"] = {{ "stock_book.svg" }}
+  #stock["gnome-stock-book-open"] = {{ "stock_book-open.svg" }}
+
+  stock["gtk-dialog-info"] =   {{ "stock_dialog_info.svg" }}
+  stock["gtk-dialog-question"] = {{ "stock_dialog_question.svg" }}
+  stock["gtk-dialog-error"] =  {{ "stock_dialog_error.svg" }}
+  stock["gtk-dialog-warning"] =  {{ "stock_dialog_warning.svg" }}
+
+  stock["gtk-dnd"] = {{ "stock_dnd.svg" }} 
+  stock["gtk-dnd-multiple"] = {{ "stock_dnd_multiple.svg" }} 
+
+  stock["gtk-add"] =	       {{ "stock_add.svg" }}
+  #stock["gtk-apply"] =	       {{ "stock_apply.svg" }}
+  stock["gtk-bold"] =	       {{ "stock_bold.svg" }} 
+  stock["gtk-cancel"] =	       {{ "stock_cancel.svg" }}
+  stock["gtk-cdrom"] =	       {{ "stock_cdrom.svg" }}
+  stock["gtk-clear"] =	       {{ "stock_clear.svg" }}
+  stock["gtk-close"] =	       {{ "stock_close.svg" }}
+  stock["gtk-convert"] =       {{ "stock_convert.svg" }}
+  stock["gtk-copy"] =	       {{ "stock_copy.svg" }}
+  stock["gtk-cut"] =	       {{ "stock_cut.svg" }}
+  stock["gtk-delete"] =	       {{ "stock_delete.svg" }}
+  stock["gtk-execute"] =       {{ "stock_execute.svg" }}
+  stock["gtk-find"] =	       {{ "stock_find.svg" }}
+  stock["gtk-find-and-replace"] = {{ "stock_find-and-replace.svg" }}
+  stock["gtk-floppy"] =		{{ "stock_floppy.svg" }}
+  stock["gtk-goto-bottom"] =	{{ "stock_goto-bottom.svg" }}
+  stock["gtk-goto-first"] =	{{ "stock_goto-first.svg" }}
+  stock["gtk-goto-last"] =	{{ "stock_goto-last.svg" }}
+  stock["gtk-goto-top"] =	{{ "stock_goto-top.svg" }}
+  stock["gtk-go-back"] =	{{ "stock_go-back.svg" }}
+  stock["gtk-go-down"] =	{{ "stock_go-down.svg" }}
+  stock["gtk-go-forward"] =	{{ "stock_go-forward.svg" }}
+  stock["gtk-go-up"] =		{{ "stock_go-up.svg" }}
+  stock["gtk-help"] =		{{ "stock_help.svg" }}
+  stock["gtk-home"] =		{{ "stock_home.svg" }}
+  stock["gtk-index"] =		{{ "stock_index.svg" }}
+  stock["gtk-italic"] =		{{ "stock_italic.svg" }}
+
+  stock["gtk-jump-to"] =	{{ "stock_jump-to.svg" }}
+  stock["gtk-justify-center"] =	{{ "stock_justify-center.svg" }}
+  stock["gtk-justify-fill"] =	{{ "stock_justify-fill.svg" }}
+  stock["gtk-justify-left"] =	{{ "stock_justify-left.svg" }}
+  stock["gtk-justify-right"] =	{{ "stock_justify-right.svg" }}
+  stock["gtk-missing-image"] =	{{ "stock_missing-image.svg" }}#
+  stock["gtk-new"] =	     	{{ "stock_new.svg" }}
+  stock["gtk-no"] =		{{ "stock_no.svg" }} 
+  stock["gtk-ok"] =		{{ "stock_ok.svg" }}
+  stock["gtk-open"] =		{{ "stock_open.svg" }} 
+  stock["gtk-paste"] =		{{ "stock_paste.svg" }}
+  stock["gtk-print"] =		{{ "stock_print.svg" }}
+  stock["gtk-print-preview"] =	{{ "stock_print-preview.svg" }}
+  stock["gtk-preferences"] =	{{ "stock_preferences.svg" }}
+  stock["gtk-properties"] =	{{ "stock_properties.svg" }}
+  stock["gtk-quit"] =		{{ "stock_quit.svg" }}
+  stock["gtk-redo"] =		{{ "stock_redo.svg" }}
+  stock["gtk-refresh"] =	{{ "stock_refresh.svg" }}
+  stock["gtk-remove"] =		{{ "stock_remove.svg" }}
+  stock["gtk-revert-to-saved"] ={{ "stock_revert-to-saved.svg" }}
+  stock["gtk-save"] =		{{ "stock_save.svg" }}
+  stock["gtk-save-as"] =	{{ "stock_save-as.svg" }}
+  stock["gtk-select-color"] =	{{ "stock_select-color.svg" }}
+  stock["gtk-select-font"] =	{{ "stock_select-font.svg" }}
+  stock["gtk-sort-ascending"] =	{{ "stock_sort-ascending.svg" }}
+  stock["gtk-sort-descending"] ={{ "stock_sort-descending.svg" }}
+  stock["gtk-spell-check"] =	{{ "stock_spell-check.svg" }}
+  stock["gtk-stop"] =		{{ "stock_stop.svg" }}
+  stock["gtk-strikethrough"] =	{{ "stock_strikethrough.svg" }}
+  stock["gtk-undelete"] =	{{ "stock_undelete.svg" }}
+  stock["gtk-underline"] =	{{ "stock_underline.svg" }}
+  stock["gtk-undo"] =		{{ "stock_undo.svg" }}
+  stock["gtk-yes"] =		{{ "stock_yes.svg" }} 
+  stock["gtk-zoom-100"] =	{{ "stock_zoom-100.svg" }}
+  stock["gtk-zoom-fit"] =	{{ "stock_zoom-fit.svg" }}
+  stock["gtk-zoom-in"] =	{{ "stock_zoom-in.svg" }}
+  stock["gtk-zoom-out"] =	{{ "stock_zoom-out.svg" }}
+
+  stock["terminal-edit"] =      {{ "stock_preferences.svg" }}
+  stock["session-stock-edit"] = {{ "stock_preferences.svg" }}
+  
+  stock["gtk-stock-edit"] =      {{ "stock_edit.svg" }}
+  stock["gtk-stock-import"] =      {{ "stock_import.svg" }}
+  stock["gtk-stock-export"] =      {{ "stock_export.svg" }}
+  stock["gtk-stock-insert-image"] =      {{ "stock_insert-image.svg" }}
+  stock["gtk-stock-insert-object"] =      {{ "stock_insert-object.svg" }}
+  stock["gtk-stock-insert-table"] =      {{ "stock_insert-table.svg" }}
+  stock["gtk-stock-connect"] = {{ "stock_connect.svg" }}
+  stock["gtk-stock-disconnect"] = {{ "stock_disconnect.svg" }}
+  stock["gtk-stock-reset"] = {{ "stock_reset.svg" }}
+}
+class "GtkWidget" style "icon-style"
+
+style "panel-icons"
+{
+        #stock ["panel-run"] =           {{"stock_run.svg"}}
+        #stock ["panel-searchtool"] =    {{"stock_searchtool.svg"}}
+        #stock ["panel-screenshot"] =    {{"stock_screenshot.svg"}}
+        #stock ["panel-lockscreen"] =    {{"stock_lockscreen.svg"}}
+        #stock ["panel-logout"] =        {{"stock_logout.svg"}}
+        #stock ["panel-gnome-logo"] =    {{"stock_gnome-logo.svg"}}
+
+        #stock ["panel-cde"] =           {{"stock_cde-menu.svg"}}
+#TBD    stock ["panel-debian"] =        {{""}}
+#TBD    stock ["panel-kde"] =           {{""}}
+#TBD    stock ["panel-suse"] =          {{""}}
+
+	     #stock ["panel-amusements"] =    {{"stock_amusements.svg"}}
+	     #stock ["panel-accessories"] =   {{"stock_accessories.svg"}}
+        #stock ["panel-multimedia"] =    {{"stock_multimedia.svg"}}
+
+        #stock ["panel-internet"] =      {{"stock_internet.svg"}}
+        #stock ["panel-utility"] =       {{"stock_gnome-util.svg"}}
+
+        #stock ["panel-corner-type"] =   {{"stock_corner-panel.svg"}}
+        #stock ["panel-edge-type"] =     {{"stock_edge-panel.svg"}}
+        #stock ["panel-floating-type"] = {{"stock_floating-panel.svg"}}
+        #stock ["panel-sliding-type"] =  {{"stock_sliding-panel.svg"}}
+        #stock ["panel-menu-type"] =     {{"stock_menu-panel.svg"}}
+
+        #stock ["panel-launcher"] =      {{"stock_launcher-program.svg"}}
+
+        #stock ["panel-drawer"] =        {{"stock_drawer.svg"}}
+#       stock ["panel-applet"] =        {{""}}
+#       stock ["panel-desktop"] =       {{""}}
+
+	#stock ["commandline-browser"] =	{{"stock_commandline-browser.xpm"}}
+	#stock ["commandline-history"] =	{{"stock_commandline-history.xpm"}}
+
+}
+
+class "GtkWidget" style "panel-icons"
+style "media-icons"
+{
+
+        #stock ["cdplayer-stop"] =       {{"media-stop.svg"}}
+        #stock ["cdplayer-play"] = 	{{"media-play.svg"}}
+        #stock ["cdplayer-pause"] = 	{{"media-pause.svg"}}
+        #stock ["cdplayer-prev"] =       {{"media-prev.svg"}}
+        #stock ["cdplayer-next"] =       {{"media-next.svg"}}
+        #stock ["cdplayer-eject"] =      {{"media-eject.svg"}}
+
+	     #stock ["volume-mute"] =      	{{"volume-mute.svg"}}
+        #stock ["volume-zero"] =      	{{"volume-zero.svg"}}
+        #stock ["volume-min"] =      	{{"volume-min.svg"}}
+        #stock ["volume-med"] =      	{{"volume-medium.svg"}}
+        #stock ["volume-max"] =      	{{"volume-max.svg"}}
+
+}
+
+class "GtkWidget" style "media-icons"
+
+style "capplet-icons"
+{
+
+        #stock ["mouse-dblclck-maybe"] =    {{"double-click-maybe.svg"}}
+        #stock ["mouse-dblclck-on"] =       {{"double-click-on.svg"}}
+        #stock ["mouse-dblclck-off"] =      {{"double-click-off.svg"}}
+
+}
+
+
+
+#class "GtkWidget" style "default"

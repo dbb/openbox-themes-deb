@@ -1,0 +1,12 @@
+Source: openbox-themes
+Section: x11
+Priority: optional
+Maintainer: Chess Griffin <chess@chessgriffin.com>
+Build-Depends: debhelper (>= 5.0) 
+Standards-Version: 3.7.2
+
+Package: openbox-themes
+Architecture: all
+Depends: openbox (>= 3.0)
+Description: Themes for the Openbox window manager
+ This package contains various themes for the Openbox window manager.

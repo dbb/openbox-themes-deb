@@ -1,0 +1,91 @@
+! pantalones anchos
+! por safari_al <tr@slackzone.org>
+! para la caja abierta, versión 3
+
+! /\/\/\ !
+
+menu.title.bg: raised gradient vertical
+menu.title.bg.color: #675270
+menu.title.bg.colorTo: #a482b2
+menu.title.text.color: #f8eaff
+menu.title.text.justify: center
+
+menu.items.bg: raised solid
+menu.items.bg.color: #675270
+menu.items.text.color: #f8eaff
+menu.items.disabled.text.color: #a482b2
+
+
+menu.items.active.bg: sunken solid
+menu.items.active.bg.color: #a482b2
+menu.items.active.text.color: #f8eaff
+
+! /\/\/\ !
+
+window.active.title.bg: raised gradient vertical
+window.active.title.bg.color: #675270
+window.active.title.bg.colorTo: #a482b2
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #f8eaff
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #f3dbff
+
+window.active.button.pressed.bg: sunken gradient vertical
+window.active.button.pressed.bg.color: #675270
+window.active.button.pressed.bg.colorTo: #a482b2
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #a482b2
+
+window.active.handle.bg: raised solid
+window.active.handle.bg.color: #a482b2
+
+window.active.grip.bg: raised solid
+window.active.grip.bg.color: #675270
+
+window.active.client.color: #a482b2
+
+! /\/\/\ !
+
+window.inactive.title.bg: raised solid
+window.inactive.title.bg.color: #675270
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #f8eaff
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #675270
+
+window.inactive.button.pressed.bg: sunken solid
+window.inactive.button.pressed.bg.color: #675270
+window.inactive.button.pressed.image.color: #675270
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #675270
+
+window.inactive.handle.bg: raised solid
+window.inactive.handle.bg.color: #675270
+
+window.inactive.grip.bg: raised solid
+window.inactive.grip.bg.color: #675270
+
+window.inactive.client.color: #675270
+
+window.label.text.justify: center
+
+! /\/\/\ !
+
+border.width: 1
+padding.width: 2
+window.handle.width: 3
+window.client.padding.width: 1
+menu.overlap: 2
+border.color: #000000
+
+window.active.label.text.font: sans:pixelsize=12:shadow=y:shadowtint=60
+menu.title.text.font: sans:bold:pixelsize=11
+menu.items.font: sans:pixelsize=11
+
+!rootCommand: bsetroot -solid rgb:55/53/56

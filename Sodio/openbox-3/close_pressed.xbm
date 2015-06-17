@@ -1,0 +1,4 @@
+#define close_pressed_width 6
+#define close_pressed_height 6
+static unsigned char close_pressed_bits[] = {
+   0x3f, 0x35, 0x35, 0x3f, 0x15, 0x15 };

@@ -1,0 +1,74 @@
+style "default"
+{
+
+  
+   fg[NORMAL]        = "#000000"
+  # fg[ACTIVE]        = "#00306b"
+  # fg[INSENSITIVE]   = "#acacac"
+  fg[PRELIGHT]      = "#000000"
+   fg[SELECTED]      = "#000000"
+ 
+  bg[NORMAL]       = "#f6f6f6"
+ bg[ACTIVE]       = "#d5d5d5"
+ #bg[PRELIGHT]     = "#e6e2e6" 
+  bg[SELECTED]     = "#7b96ac" 
+  bg[INSENSITIVE]  = "#dddddd"
+
+ 
+  base[SELECTED]  = "#7b96ac"
+  text[SELECTED]  = "#ffffff"
+ # base[SELECTED]  = { 0.30,0.35,0.65 }
+  #text[SELECTED]  = { 1.0, 1.0, 1.0 }
+  base[ACTIVE]    = { 0.6, 0.65, 0.75 }
+  text[ACTIVE]    = { 1.0, 1.0, 1.0 }
+  
+  text[INSENSITIVE]= "#747474"
+  #text[SELECTED]   = "#000000"
+  text[ACTIVE]     = "#000000"
+
+ engine "thinice"
+  {
+    # You want the // on the handleboxes?
+    handlebox_marks = TRUE
+    # Do you want the // marks on the scrollbar handle?
+    scrollbar_marks = TRUE
+    # A single / on the scrollbar buttons, perhaps?
+    scroll_button_marks = FALSE
+    # Do you want the scrollbar handles rectangular or a bit shaped?
+    rect_scrollbar = TRUE
+  }
+}
+style "menu" 
+{
+		  bg[PRELIGHT]    = "#3e71aa"
+  bg[SELECTED]    = "#577591"
+
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "range"
+{
+bg[PRELIGHT]     = "#eeeeee"
+bg[ACTIVE]       = "#d5d5d5"
+}
+widget_class "*Menu*" style "menu"
+
+style "b-range"
+{
+bg[PRELIGHT]     = "#eeeeee"
+bg[ACTIVE]       = "#dddddd"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "b-range"
+class "GtkRange" style "range"
+#class "GtkWidget" style "b-range"
+#widget_class "*.GtkFrame.GtkLabel" style "b-range"
+
+style "rox"
+{
+     bg[NORMAL] = "#e2e2e7"
+bg_pixmap[NORMAL] = "window_pattern4.png"
+}
+class "Collection" style "rox"

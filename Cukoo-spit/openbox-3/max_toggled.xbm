@@ -1,0 +1,4 @@
+#define max_t_width 7
+#define max_t_height 7
+static unsigned char max_t_bits[] = {
+   0x78, 0x78, 0x7f, 0x71, 0x11, 0x11, 0x1f };

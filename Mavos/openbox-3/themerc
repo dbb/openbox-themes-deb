@@ -1,0 +1,137 @@
+!!well this is basically the (defunct fot some reason) default look from a 
+!!window manager i never used - http://mavosxwm.sourceforge.net/ i'm not 
+!!sure what's going on with it. but meh.
+
+!! Menu settings
+
+menu.title.bg: raised gradient vertical bevel1
+menu.title.bg.color: #e9a812
+menu.title.bg.colorTo: #edbf5f
+menu.title.bg.border.color: #000000
+menu.title.text.color: #000000
+menu.title.text.justify: center
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #f7f7f7
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #565248
+
+menu.items.active.bg: flat border solid bevel1
+menu.items.active.bg.color: #ecb94a
+menu.items.active.text.color: #000000
+menu.items.active.bg.border.color: #e5a409
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #787a95
+
+window.active.title.bg: raised gradient vertical
+window.active.title.bg.color: #e5a409
+window.active.title.bg.colorTo: #edc164
+
+window.active.handle.bg: raised solid
+window.active.handle.bg.color: #eec570
+window.active.handle.bg.colorTo: #edbf5f
+
+window.active.grip.bg: parentrelative
+window.active.grip.bg.color: #3b4260
+window.active.grip.bg.colorTo: #666d93
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #000000
+
+window.active.button.unpressed.bg: flat border 
+window.active.button.unpressed.bg.color: #ecb94a
+window.active.button.unpressed.bg.colorTo: #7399cd
+window.active.button.unpressed.image.color: #000000
+window.active.button.unpressed.bg.border.color: #000000
+
+window.active.button.pressed.bg: flat border 
+window.active.button.pressed.bg.color: #e5a409
+window.active.button.pressed.bg.colorTo: #7399cd
+window.active.button.pressed.image.color: #000000
+window.active.button.pressed.bg.border.color: #000000
+
+!! unfocused window settings
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: raised gradient vertical
+window.inactive.title.bg.color: #dcd1a6
+window.inactive.title.bg.colorTo: #eee8cf
+
+window.inactive.handle.bg:  raised solid
+window.inactive.handle.bg.color: #dcd1a6
+window.inactive.handle.bg.colorTo: #7eee8cf
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #dcd1a6
+window.inactive.grip.bg.colorTo: #eee8cf
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #333333
+
+window.inactive.button.unpressed.bg: flat border solid 
+window.inactive.button.unpressed.bg.color: #e5dcba
+window.inactive.button.unpressed.bg.colorTo: #f7f7f7
+window.inactive.button.unpressed.image.color:  #333333
+window.inactive.button.unpressed.bg.border.color: #333333
+
+window.inactive.button.pressed.bg: flat border solid
+window.inactive.button.pressed.bg.color: #c5c2c5
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+window.inactive.button.pressed.image.color: #dddddd
+
+!#
+window.inactive.button.disabled.bg: flat border solid 
+window.inactive.button.disabled.bg.color: #e5dcba
+window.inactive.button.disabled.bg.colorTo: #f7f7f7
+window.inactive.button.disabled.image.color:  #e5dcba
+window.inactive.button.disabled.bg.border.color: #333333
+!#
+window.active.button.disabled.bg: flat border solid 
+window.active.button.disabled.bg.color: #ecb94a
+window.active.button.disabled.bg.colorTo: #f7f7f7
+window.active.button.disabled.image.color:  #ecb94a
+window.active.button.disabled.bg.border.color: #333333
+
+!# toggled
+window.active.button.toggled.bg: flat border 
+window.active.button.toggled.bg.color: #ecb94a
+window.active.button.toggled.bg.colorTo: #7399cd
+window.active.button.toggled.image.color: #000000
+window.active.button.toggled.bg.border.color: #000000
+
+window.inactive.button.toggled.bg: flat border solid 
+window.inactive.button.toggled.bg.color: #e5dcba
+window.inactive.button.toggled.bg.colorTo: #f7f7f7
+window.inactive.button.toggled.image.color:  #333333
+window.inactive.button.toggled.bg.border.color: #333333
+
+window.inactive.client.color: #f6f6f6
+window.active.client.color: #f6f6f6
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 8
+
+!! Miscellaneous settings
+border.color: #222222
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:pixelsize=11
+menu.items.font: Bitstream Vera Sans:pixelsize=11
+menu.title.text.font: Bitstream Vera Sans:pixelsize=11
+
+
+
+

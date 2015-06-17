@@ -1,0 +1,117 @@
+!#sort of gorilla i guess, the point of these 'ximian ports' is so openbox is usable with all the other cool ximian artwork available, i guess.
+
+!! Menu settings
+
+menu.title.bg: raised gradient vertical bevel1
+menu.title.bg.color: #6f6f67
+menu.title.bg.colorTo: #9f9f93
+menu.title.text.color: #fcfcfe
+menu.title.text.justify: center
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #dedfce
+menu.items.bg.colorTo: #000000
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #565248
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat border solid bevel1
+menu.items.active.bg.color: #9f9f9f
+menu.items.active.bg.colorTo: #5a71c5
+menu.items.active.text.color: #ffffff
+menu.items.active.bg.border.color: #dedfce
+
+window.label.text.justify: center
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: Raised gradient vertical
+window.active.title.bg.color: #6f6f67
+window.active.title.bg.colorTo: #9f9f93
+
+window.active.handle.bg:  raised gradient vertical
+window.active.handle.bg.color: #6f6f67
+window.active.handle.bg.colorTo: #9f9f93
+
+window.active.grip.bg:  parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: flat gradient diagnal border
+window.active.button.unpressed.bg.color: #eaa71a
+window.active.button.unpressed.bg.colorTo: #ad7c06
+window.active.button.unpressed.image.color: #ffffff
+window.active.button.unpressed.bg.border.color: #000000
+
+window.active.button.pressed.bg: flat border solid
+window.active.button.pressed.bg.color: #ad7c06
+window.active.button.pressed.image.color: #dddddd
+window.active.button.pressed.bg.border.color: #000000
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+window.inactive.title.bg: raised solid
+window.inactive.title.bg.color: #dedfce
+window.inactive.title.bg.colorTo: #a5a2a5
+
+window.inactive.handle.bg:  raised gradient vertical bevel1
+window.inactive.handle.bg.color: #dedfce
+window.inactive.handle.bg.colorTo: #dedfce
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #e6e6e6
+window.inactive.grip.bg.colorTo: #cdcac7
+
+window.inactive.label.bg: parentrelative
+#window.inactive.label.text.color: #ffffff
+window.inactive.label.text.color: #acaeac
+
+window.inactive.button.unpressed.bg: flat border gradient vertical
+window.inactive.button.unpressed.bg.color: #dedfce
+window.inactive.button.unpressed.bg.colorTo: #dedfce
+window.inactive.button.unpressed.image.color:  #acaeac
+window.inactive.button.unpressed.bg.border.color: #c5c6c5
+
+window.inactive.button.pressed.bg: flat border solid
+window.inactive.button.pressed.bg.color: #c5c2c5
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+window.inactive.button.pressed.image.color: #dddddd
+
+!#
+window.active.button.disabled.bg: flat border
+window.active.button.disabled.bg.color: #990000
+window.active.button.disabled.bg.colorTo: #990000
+window.active.button.disabled.image.color: #ffffff
+window.active.button.disabled.bg.border.color: #000000
+#
+window.inactive.button.disabled.bg: flat border gradient vertical
+window.inactive.button.disabled.bg.color: #d5dad5
+window.inactive.button.disabled.bg.colorTo: #b4b6b4
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #000000
+
+window.active.button.toggled.bg: flat gradient vertical border
+window.active.button.toggled.bg.color: #eaa71a
+window.active.button.toggled.bg.colorTo: #ad7c06
+window.active.button.toggled.image.color: #ffffff
+window.active.button.toggled.bg.border.color: #000000
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 3
+window.client.padding.width: 0
+border.color: #091d2e
+menu.overlap: 8
+
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=y:shadowtint=60
+window.inactive.label.text.font:Bitstream Vera Sans:bold:pixelsize=10
+menu.items.font: Bitstream Vera Sans:pixelsize=11
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=y:shadowtint=60

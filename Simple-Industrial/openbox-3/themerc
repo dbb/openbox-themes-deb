@@ -1,0 +1,104 @@
+!! Menu settings
+!! #3e71aac = accent colour, change to whatever if you like
+!! i be a mess
+
+menu.title.bg:  raised solid bevel1
+menu.title.bg.color: #3e71aa
+menu.title.text.color: #ffffff
+menu.title.text.justify: Center
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #e7e7e7
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #737573
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #3e71aa
+menu.items.active.text.color: #ffffff
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: raised solid bevel1
+window.active.title.bg.color: #3e71aa
+window.active.title.bg.border.color: #4a6984
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #e7e7e7
+
+window.active.grip.bg: parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #ffffff
+
+window.active.button.pressed.bg: flat solid bevel1
+window.active.button.pressed.bg.color: #888888
+!window.active.button.pressed.bg.color: #ab7b14
+window.active.button.pressed.image.color: #dddddd
+
+!#hover
+window.active.button.hover.bg: flat solid
+window.active.button.hover.image.color: #ffffff
+window.active.button.hover.bg.color: #888888
+
+!window.button.hover.toggled.unfocus: flat solid
+!window.button.hover.toggled.unfocus.bg.color: #f7f7f7
+!window.button.hover.toggled.unfocus.image.color:  #acaeac
+
+!#toggles
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #ffffff
+
+!#disabled
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #3e71aac
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #e7e7e7
+window.inactive.title.bg.border.color: #b5b2b5
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #e7e7e7
+
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #7b7d7b
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #7b7d7b
+
+window.inactive.button.pressed.bg: flat border solid bevel1
+window.inactive.button.pressed.bg.color: #c8c8c8
+window.inactive.button.pressed.bg.border.color: #e5e5e5
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color:  #e7e7e7
+
+window.inactive.button.toggled.bg: parentrelative
+window.inactive.button.toggled.image.color:  #acaeac
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 8
+
+!! Miscellaneous settings
+border.color: #666666
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:size=8:bold
+menu.title.text.font: Bitstream Vera Sans:size=8:bold
+menu.items.font: Bitstream Vera Sans:size=8
+

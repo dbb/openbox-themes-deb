@@ -1,0 +1,73 @@
+style "default"
+{
+        fg[NORMAL]              = "#60646b"
+        fg[ACTIVE]              = "#60646b"
+        fg[INSENSITIVE]         = "#b0ada9"
+        fg[PRELIGHT]            = "#60646b"
+        fg[SELECTED]            = "#dddbd6"
+        
+        bg[ACTIVE]              = "#dddbd6"
+	bg[NORMAL]              = "#dddbd6"
+        bg[INSENSITIVE]         = "#dddbd6"
+        bg[PRELIGHT]            = "#dddbd6"
+        bg[SELECTED]            = "#60646b"
+
+        base[NORMAL]            = "#dddbd6"
+        base[ACTIVE]            = "#dddbd6"
+        base[INSENSITIVE]       = "#b0ada9"
+        base[PRELIGHT]          = "#dddbd6"
+	base[SELECTED]          = "#60646b"
+        
+        text[NORMAL]            = "#60646b"
+        text[ACTIVE]            = "#60646b"
+        text[PRELIGHT]          = "#60646b"
+        text[SELECTED]          = "#dddbd6"
+        text[INSENSITIVE]       = "#60646b"
+
+	GtkRange::trough_border = 0
+	GtkRange::slider_width = 15
+	GtkRange::stepper_size = 15
+
+	GtkScrollbar::min_slider_length = 15
+	GtkCheckButton::indicator_size=10
+	GtkCheckMenuItem::indicator_size=10
+	GtkRadioButton::indicator_size=12
+#	GtkStatusbar::shadow_type = 
+	
+	GtkNotebook::tab_vborder = 0
+	GtkNotebook::tab_hborder = 0
+	xthickness = 1
+	ythickness = 1
+
+	NautilusIconContainer::dark_info_color="#60646b"
+	NautilusIconContainer::light_info_color="#dddbd6"
+	NautilusIconContainer::highlight_alpha=200
+
+	engine "mist"
+ 	{
+	}
+}
+
+style "menuitem"
+{
+	ythickness = 2
+	xthickness = 2
+        text[PRELIGHT]          = "#dddbd6"
+        fg[PRELIGHT]          = "#dddbd6"
+}
+
+style "menu" 
+{
+	ythickness = 2
+	xthickness = 2
+} 
+
+class "GtkWidget" style "default"
+class "GtkMenu" style "menu"
+
+widget_class "*.GtkMenuItem.*" style "menuitem"
+widget_class "*.GtkImageMenuItem.*" style "menuitem"
+widget_class "*.GtkAccelMenuItem.*" style "menuitem"
+widget_class "*.GtkRadioMenuItem.*" style "menuitem"
+widget_class "*.GtkCheckMenuItem.*" style "menuitem"
+widget_class "*.GtkMenu.*" style "menuitem"

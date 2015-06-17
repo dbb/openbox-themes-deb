@@ -1,0 +1,49 @@
+# Gorilla vector icon theme
+# (c) 2002-2003 Jakub 'Jimmac' Steiner <jimmac@ximian.com>
+
+[Icon Theme]
+_Name=Gorilla
+_Comment=Vector Theme
+Directories=scalable/apps,scalable/filesystems,scalable/mimetypes,scalable/emblems,scalable/devices
+Example=gnome-theme-preview.svg
+
+[scalable/actions]
+MinSize=1
+Size=54
+MaxSize=256
+Context=Actions
+Type=scalable
+
+[scalable/apps]
+MinSize=1
+Size=54
+MaxSize=256
+Context=Applications
+Type=scalable
+
+[scalable/devices]
+MinSize=1
+Size=54
+MaxSize=256
+Context=Devices
+Type=scalable
+
+[scalable/emblems]
+#this is a bug 102677, should be 24
+Size=72
+Context=Emblems
+Type=Scalable
+
+[scalable/filesystems]
+MinSize=1
+Size=54
+MaxSize=128
+Context=FileSystems
+Type=Scalable
+
+[scalable/mimetypes]
+MinSize=1
+Size=54
+MaxSize=128
+Context=MimeTypes
+Type=Scalable

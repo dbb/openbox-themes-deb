@@ -1,0 +1,268 @@
+pixmap_path "/usr/share/themes/Industrial/gtk-2.0"
+
+style "industrial-default"
+{
+  GtkWidget::interior_focus = 1
+  GtkButton::default_border = { 3, 3, 3, 3 }
+  GtkButton::default_outside_border = { 3, 3, 3, 3 }
+  GtkRange::trough_border = 0
+
+  GtkWidget::focus_padding = 1
+
+  GtkPaned::handle_size = 7
+  
+  GtkRange::slider_width = 15
+  GtkRange::stepper_size = 15
+  GtkScrollbar::min_slider_length = 30
+  GtkCheckButton::indicator_size = 13
+  GtkRadioButton::indicator_size = 13
+  GtkMenuBar::internal-padding = 0
+
+  GtkButton::child_displacement_x = 0
+  GtkButton::child_displacement_y = 1
+
+  PanelMenu::gradient_bg = 1
+  PanelMenu::stripe-color = { 0.24, 0.44, 0.66 }
+  PanelMenu::stripe-color-light = { 0.54, 0.74, 0.96 }
+
+  GtkMenuItem::selected_shadow_type = GTK_SHADOW_IN
+
+  #GtkOptionMenu::indicator_size = { 11, 6 }
+  #GtkOptionMenu::indicator_spacing = { 4, 5, 2, 2 }
+
+  xthickness = 1
+  ythickness = 1
+  
+  bg[NORMAL]      = "#f3f3f3"
+  bg[PRELIGHT]	   = "#f3f3f3"
+  fg[NORMAL]      = "#585858"
+  fg[PRELIGHT]    = "#000000"
+  fg[INSENSITIVE] = "#9f9f9f"
+  bg[ACTIVE]	   = "#d9d9d9"
+  bg[INSENSITIVE] = "#d9d9d9"
+#  bg[SELECTED]    = "#99a6bf"
+  bg[SELECTED]    = "#494949"
+  base[SELECTED]  = "#4b4b4b"
+  base[ACTIVE]    = "#989898"
+  text[SELECTED]  = "#ffffff"
+  
+
+  engine "industrial" {}
+
+  stock["gtk-goto-bottom"] = 
+   { 
+     { "stock_bottom.png", *, *, *} 
+   }
+
+  stock["gtk-goto-first"] = 
+   { 
+     { "stock_first.png", *, *, *} 
+   }
+
+  stock["gtk-goto-last"] = 
+   { 
+     { "stock_last.png", *, *, *} 
+   }
+
+  stock["gtk-goto-top"] = 
+   { 
+     { "stock_top.png", *, *, *} 
+   }
+
+  stock["gtk-go-back"] = 
+   { 
+     { "stock_left.png", *, *, *} 
+   }
+
+  stock["gtk-go-down"] = 
+   { 
+     { "stock_down.png", *, *, *} 
+   }
+
+  stock["gtk-go-forward"] = 
+   { 
+     { "stock_right.png", *, *, *} 
+   }
+
+  stock["gtk-go-up"] = 
+   { 
+     { "stock_up.png", *, *, *} 
+   }
+
+  stock["gtk-no"] = 
+   { 
+     { "stock_cancel.png", *, *, *} 
+   }
+
+  stock["gtk-apply"] = 
+   { 
+     { "stock_apply.png", *, *, *} 
+   }
+
+  stock["gtk-cancel"] = 
+   { 
+     { "stock_cancel.png", *, *, *} 
+   }
+
+  stock["gtk-ok"] =
+   {
+     { "stock_ok.png", *, *, *}
+   }
+
+  stock["gtk-yes"] = 
+   { 
+     { "stock_apply.png", *, *, *} 
+   }
+
+	 stock["gtk-refresh"] =
+	 {
+	   { "stock_refresh.png", *, *, *}
+	 }
+}
+
+style "industrial-unrounded" = "industrial-default"
+{
+  engine "industrial" 
+    {
+      rounded_buttons = FALSE
+    }
+}
+
+style "industrial-wide" = "industrial-default"
+{
+  xthickness = 2
+  ythickness = 2
+}
+
+style "industrial-tasklist" = "industrial-default"
+{
+  xthickness = 5
+  ythickness = 3
+}
+
+style "industrial-arrows" = "industrial-default"
+{
+  fg[NORMAL] = { 0.2,0.2,0.2 }
+}
+
+style "industrial-menu" = "industrial-default"
+{
+#  engine "redmond95" { }
+  xthickness = 3
+  ythickness = 3
+
+  #bg[PRELIGHT]    = "#7b96ac"
+  #bg[SELECTED]    = "#7b96ac"
+  bg[PRELIGHT]    = "#4b4b4b"
+  bg[SELECTED]    = "#577591"
+
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "industrial-menu-separator" = "industrial-default"
+{
+#  engine "redmond95" { }
+  xthickness = 3
+  ythickness = 3
+
+  bg[PRELIGHT]    = "#7b96ac"
+  bg[SELECTED]    = "#7b96ac"
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "industrial-menubar" = "industrial-default"
+{
+  xthickness = 3
+  ythickness = 3
+}
+
+style "industrial-paned" = "industrial-default"
+{
+  xthickness = 10
+  ythickness = 10
+}
+
+style "industrial-tree" = "industrial-default"
+{
+  engine "industrial" 
+    {
+      rounded_buttons = FALSE
+    }
+  xthickness = 2
+  ythickness = 2
+}
+
+style "industrial-frame-title" = "industrial-default"
+{
+  fg[NORMAL] = { 0.25,0.25,0.25 }
+}
+
+style "industrial-panel" = "industrial-default"
+{
+  xthickness = 3
+  ythickness = 3
+}
+
+style "industrial-tooltips" = "industrial-default"
+{
+  xthickness = 4
+  ythickness = 4
+  bg[NORMAL] = { 0.9,0.9,0.9 }
+}
+
+style "metacity-frame"
+{
+
+	# Normal base color
+ 	bg[NORMAL]      = { 0.97, 0.97, 0.97 }
+
+	# Unfocused title background color
+	bg[INSENSITIVE]	= { 0.9, 0.9, 0.9 }
+
+	# Unfocused title text color
+	fg[INSENSITIVE]	= { 0.15, 0.15, 0.15 }
+
+	# Focused icon color
+	fg[NORMAL]	= { 0.2, 0.2, 0.2 }
+
+	# Focused title background color
+	bg[SELECTED]	= { 0.27, 0.52, 0.84 }
+	
+	# Focused title text color
+	fg[SELECTED]	= "white"
+}
+
+#class "Gtk*Paned" style "industrial-paned"
+
+widget "*.tasklist-button" style "industrial-unrounded"
+widget_class "*.GtkTreeView.*" style "industrial-tree"
+widget_class "*.GtkList.*" style "industrial-tree"
+widget_class "*.GtkCList.*" style "industrial-tree"
+widget_class "*.ETree.*" style "industrial-tree"
+widget_class "*.ETable.*" style "industrial-tree"
+
+class "GtkNotebook" style "industrial-wide"
+class "GtkWidget" style "industrial-default"
+class "GtkButton" style "industrial-wide"
+class "GtkRange" style "industrial-wide"
+class "GtkMenu" style "industrial-wide"
+class "GtkFrame" style "industrial-wide"
+class "GtkStatusbar" style "industrial-wide"
+class "GtkMenuItem" style "industrial-menu"
+widget_class "*.GtkMenuItem.*" style "industrial-menu"
+widget_class "*.GtkAccelMenuItem.*" style "industrial-menu"
+widget_class "*.GtkRadioMenuItem.*" style "industrial-menu"
+widget_class "*.GtkCheckMenuItem.*" style "industrial-menu"
+widget_class "*.GtkImageMenuItem.*" style "industrial-menu"
+widget_class "*.GtkSeparatorMenuItem.*" style "industrial-menu-separator"
+class "GtkEntry" style "industrial-wide"
+widget_class "*.tooltips.*.GtkToggleButton" style "industrial-tasklist"
+widget_class "*.GtkFrame.GtkLabel" style "industrial-frame-title"
+widget_class "*.GtkFrame.GtkCheckButton.GtkLabel" style "industrial-frame-title"
+class "MetaFrames" style "metacity-frame"
+class "GtkVScrollbar" style "industrial-arrows"
+class "GtkHScrollbar" style "industrial-arrows"
+widget_class "BasePWidget.GtkEventBox.GtkTable.GtkFrame" style "industrial-panel"
+widget "gtk-tooltips" style "industrial-tooltips"

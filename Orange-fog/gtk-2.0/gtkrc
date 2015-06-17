@@ -1,0 +1,163 @@
+style "default"
+{
+   #GtkScrollbar::has_backward_stepper = 0
+  GtkScrollbar::has_secondary_backward_stepper = 1
+  # GtkScrollbar::has_secondary_forward_stepper = 1
+  GtkRange::slider_width = 14
+  GtkRange::stepper_size = 13
+   #GtkPaned::handle_size = 6
+   #GtkScrollbar::min_slider_length = 30  
+
+   fg[NORMAL]        = "#000000"
+  # fg[ACTIVE]        = "#00306b"
+  # fg[INSENSITIVE]   = "#acacac"
+  fg[PRELIGHT]      = "#000000"
+   fg[SELECTED]      = "#ffffff"
+ 
+  bg[NORMAL]       = "#d8d4d4"
+  bg[ACTIVE]       = "#bbbbbb"
+ #bg[PRELIGHT]     = "#e6e2e6" 
+  bg[SELECTED]     = "#d1940c"
+  bg[INSENSITIVE]  = "#dddddd"
+
+ 
+  base[ACTIVE]  = "#dddddd"
+  base[SELECTED]  = "#d1940c"
+  text[SELECTED]  = "#ffffff"
+  text[ACTIVE]    = { 1.0, 1.0, 1.0 }
+  
+  text[INSENSITIVE]= "#d5d5d5"
+  text[ACTIVE]     = "#000000"
+
+ 
+engine "thinice"
+  {
+    rect_scrollbar = TRUE
+    mark_type1 = NOTHING
+    mark_type2 = ARROW
+    paned_dots = NONE
+  }
+
+  stock["gtk-goto-bottom"] = 
+   { 
+     { "stock_bottom.png", *, *, *} 
+   }
+
+  stock["gtk-goto-first"] = 
+   { 
+     { "stock_first.png", *, *, *} 
+   }
+
+  stock["gtk-goto-last"] = 
+   { 
+     { "stock_last.png", *, *, *} 
+   }
+
+  stock["gtk-goto-top"] = 
+   { 
+     { "stock_top.png", *, *, *} 
+   }
+
+  stock["gtk-go-back"] = 
+   { 
+     { "stock_left.png", *, *, *} 
+   }
+
+  stock["gtk-go-down"] = 
+   { 
+     { "stock_down.png", *, *, *} 
+   }
+
+  stock["gtk-go-forward"] = 
+   { 
+     { "stock_right.png", *, *, *} 
+   }
+
+  stock["gtk-go-up"] = 
+   { 
+     { "stock_up.png", *, *, *} 
+   }
+
+  stock["gtk-no"] = 
+   { 
+     { "stock_cancel.png", *, *, *} 
+   }
+
+  stock["gtk-apply"] = 
+   { 
+     { "stock_apply.png", *, *, *} 
+   }
+
+  stock["gtk-cancel"] = 
+   { 
+     { "stock_cancel.png", *, *, *} 
+   }
+
+  stock["gtk-ok"] =
+   {
+     { "stock_ok.png", *, *, *}
+   }
+
+  stock["gtk-yes"] = 
+   { 
+     { "stock_apply.png", *, *, *} 
+   }
+
+	 stock["gtk-refresh"] =
+	 {
+	   { "stock_refresh.png", *, *, *}
+	 }
+
+	 stock["gtk-jump-to"] =
+	 {
+	   { "stock_jump_to_24.png", *, *, *}
+	 }
+
+
+	 stock["gtk-jump-to-rtl"] =
+	 {
+	   { "stock_jump_to_rtl_24.png", *, *, *}
+	 }
+
+
+
+}
+
+style "menu" 
+{
+ #xthickness = 1
+  # ythickness = 2
+	  bg[PRELIGHT]    = "#d1940c"
+  bg[SELECTED]    = "#d1940c"
+  bg[ACTIVE]    = "#d1940c"
+  
+fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "range"
+{
+bg[NORMAL]     = "#d8d8d8"
+bg[PRELIGHT]     = "#d8d8d8"
+bg[ACTIVE]       = "#bbbbbb"
+}
+widget_class "*Menu*" style "menu"
+
+style "b-range"
+{
+bg[PRELIGHT]     = "#d8d4d4"
+bg[ACTIVE]       = "#dddddd"
+fg[PRELIGHT]     = "#000000"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "b-range"
+class "GtkRange" style "range"
+
+style "rox"
+{
+    bg[NORMAL] = "#ffffff"
+bg[ACTIVE]       = "#d5d5d5"
+
+}
+class "Collection" style "rox"

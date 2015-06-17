@@ -1,0 +1,101 @@
+# military gtk theme 6may07 release 1
+# absE part
+# by crimeboy
+style "default"
+{
+  GtkOptionMenu::indicator_spacing = { 1, 1, 1, 1 }
+  GtkRange::slider_width = 11
+  GtkRange::stepper_size = 11
+  GtkScrollbar::min_slider_length = 12
+  GtkCheckButton::indicator_size = 10
+  GtkCheckMenuItem::indicator_size = 10
+  GtkButton::default_border = { 0, 0, 0, 0 }
+
+  fg[NORMAL]        = "#000000"
+  fg[ACTIVE]        = "#000000"
+  fg[PRELIGHT]      = "#000000"
+  fg[SELECTED]      = "#cccccc"
+  fg[INSENSITIVE]   = "#747474"
+  bg[NORMAL]        = "#E8E8E8"
+  bg[ACTIVE]        = "#E8E8E8"
+#  bg[PRELIGHT]      = "#848E84"
+ bg[PRELIGHT]      = "#616169"
+
+  bg[SELECTED]      = "#6D846D"
+  bg[INSENSITIVE]   = "#e8e8e8"
+  base[NORMAL]      = "#ffffff"
+  base[ACTIVE]      = "#808080"
+  base[PRELIGHT]    = "#8D8D8D"
+  base[SELECTED]    = "#6D846D"
+  base[INSENSITIVE] = "#848e84"
+  text[NORMAL]      = "#182418"
+  text[ACTIVE]      = "#cccccc"
+  text[PRELIGHT]    = "#000000"
+  text[SELECTED]    = "#cccccc"
+  text[INSENSITIVE] = "#747474"
+
+  font_name = "Smooth 12"
+  engine "thinice"
+  {
+    # Do you want the scrollbar handles rectangular or a bit shaped?
+    rect_scrollbar = FALSE
+
+    # The following variables are semi-generic, can be applied to
+    # different widget classes etc..
+
+    # Mark type 1 is used on scrollbar handles, handleboxes etc
+    # Can be: NOTHING, SLASH, INVSLASH, DOT, INVDOT
+    mark_type1 = SLASH
+
+    # Mark type 2 is used on scrollbar buttons
+    # Can be: NOTHING, SLASH, INVSLASH, DOT, INVDOT, ARROW
+    mark_type2 = INVSLASH
+
+    # How to draw paned stuff
+    # Can be: NONE, SOME (currently 5), FULL
+    paned_dots = SOME
+  }
+}
+
+style "tooltips" {
+  bg[NORMAL] = "#EEE1B3"
+  fg[NORMAL] = "#000000"
+}
+
+style "progress-bar" {
+  bg[PRELIGHT] = "#6D846D"
+  fg[PRELIGHT] = "#FFFFFF"
+  bg[NORMAL]   = "#C1C1CC"
+}
+
+style "theme-menubar" = "theme-default"
+{
+  bg[NORMAL] = "#406040"
+  fg[NORMAL] = "#333333"
+  fg[ACTIVE] = "#333333"
+  text[NORMAL] = "#333333"
+  text[PRELIGHT] = "#729fcf"
+  base[PRELIGHT] = "#729fcf"
+  base[SELECTED] = "#729fcf"
+}
+
+style "menu-item" {
+  bg[PRELIGHT]   = "#6D846D"
+  fg[PRELIGHT]   = "#FFFFFF"
+  base[PRELIGHT] = "#6D846D"
+  text[PRELIGHT] = "#FFFFFF"
+}
+
+class "GtkWidget" style "default"
+widget "gtk-tooltips*" style "tooltips"
+class "GtkProgressBar" style "progress-bar"
+class "*MenuItem*" style "menu-item"
+class "*MenuBar*"      style "theme-menubar"
+
+widget_class "*MenuItem*" style "menu-item"
+widget_class "*.GtkAccelMenuItem.*" style "menu-item"
+widget_class "*.GtkRadioMenuItem.*" style "menu-item"
+widget_class "*.GtkCheckMenuItem.*" style "menu-item"
+widget_class "*.GtkImageMenuItem.*" style "menu-item"
+widget_class "*.GtkSeparatorMenuItem.*" style "menu-item"
+widget_class "*.GtkRadioMenuItem.*" style "menu-item"

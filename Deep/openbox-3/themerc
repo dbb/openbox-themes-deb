@@ -1,0 +1,119 @@
+! deep - by safari_al
+! tr@slackzone.org
+! open box trois
+!
+! the scent of deep heat is wafting through the air.  inhale.
+
+menu.title.bg: flat gradient horizontal
+menu.title.bg.color: #223256
+menu.title.bg.colorTo: #5171a6
+menu.title.text.color: #e6e6e6
+
+menu.items.bg: flat gradient horizontal
+menu.items.bg.color: #a3a3a3
+menu.items.bg.colorTo: #d3d3d3
+menu.items.text.color: #1a1a1a
+menu.items.disabled.text.color: #969696
+
+menu.items.active.bg: flat gradient horizontal
+menu.items.active.bg.color: #a3a3a3
+menu.items.active.bg.colorTo: #5171a6
+menu.items.active.text.color: #1a1a1a
+
+! ventana activa
+
+window.active.title.bg: flat gradient vertical
+window.active.title.bg.color: #d3d3d3
+window.active.title.bg.colorTo: #a3a3a3
+
+window.active.label.bg: flat gradient horizontal
+window.active.label.bg.color: #223256
+! #3f5881 is the dreary colorTo that made corporate life hell in the late 80's.
+window.active.label.bg.colorTo: #5171a6
+window.active.label.text.color: #e6e6e6
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: black
+
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #969696
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #969696
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #d3d3d3
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #3f5881
+
+! unfocused windows
+
+window.inactive.title.bg: flat gradient vertical
+window.inactive.title.bg.color: #d3d3d3
+window.inactive.title.bg.colorTo: #a3a3a3
+
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #223256
+window.inactive.label.text.color: #e6e6e6
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: black
+
+window.inactive.button.pressed.bg: flat solid
+window.inactive.button.pressed.bg.color: #969696
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #969696
+
+window.active.client.color: #d3d3d3
+window.inactive.client.color: #a3a3a3
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #a3a3a3
+
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #223526
+
+! misc.
+
+border.width:  1
+padding.width: 1
+window.handle.width:  3
+window.client.padding.width: 1
+menu.overlap: 0
+border.color:	black
+
+*justify:	left
+window.active.label.text.font: sans:pixelsize=12
+menu.title.text.font: sans:pixelsize=12
+menu.items.font: sans:pixelsize=10
+
+!rootCommand:	bsetbg -mod 2 2 -bg rgb:22/35/26 -fg rgb:3f/58/81
+
+! back in the 60's, free love was cool, and so was the bbpager.
+
+bbpager.frame: flat gradient vertical
+bbpager.frame.bg.color: #3f5881
+bbpager.frame.bg.colorTo: #223256
+
+bbpager.desktop: parentrelative
+bbpager.desktop.focus: parentrelative
+
+bbpager.window: flat gradient vertical
+bbpager.window.bg.color: #d3d3d3
+bbpager.window.bg.colorTo: #a3a3a3
+bbpager.window.focus: flat gradient vertical
+bbpager.window.focus.bg.color: #d3d3d3
+bbpager.window.focus.bg.colorTo: #3f5881
+
+bbpager.desktop.focusStyle: border
+bbpager.window.focusStyle: texture
+
+bbpager.active.desktop.bg.border.color: #d3d3d3
+bbpager.active.window.bg.border.color: black
+bbpager.inactive.window.bg.border.color: black
+
+bbpager.bevelWidth: 1
+
+! always remember to warm up before playing sport

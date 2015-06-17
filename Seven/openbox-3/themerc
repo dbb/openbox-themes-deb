@@ -1,0 +1,89 @@
+! seven - by safari_al
+! tr@slackzone.org
+!
+! one more than six
+
+menu.title.bg: sunken gradient vertical
+menu.title.bg.color: #686868
+menu.title.bg.colorTo: #a4a4a4
+menu.title.text.color: #d7d7d7
+
+menu.items.bg: sunken gradient vertical
+menu.items.bg.color: #727272
+menu.items.bg.colorTo: #4f4f4f
+menu.items.text.color: #939393
+
+menu.items.active.bg: raised gradient vertical
+menu.items.active.bg.color: #a4a4a4
+menu.items.active.bg.colorTo: #686868
+menu.items.active.text.color: #d7d7d7
+
+window.active.title.bg: raised gradient vertical
+window.active.title.bg.color: #a4a4a4
+window.active.title.bg.colorTo: #686868
+window.inactive.title.bg: raised gradient vertical
+window.inactive.title.bg.color: #727272
+window.inactive.title.bg.colorTo: #4f4f4f
+
+window.active.label.bg: sunken gradient vertical
+window.active.label.bg.color: #686868
+window.active.label.bg.colorTo: #a4a4a4
+window.active.label.text.color: #d7d7d7
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #939393
+
+window.active.button.unpressed.bg: raised gradient vertical
+window.active.button.unpressed.bg.color: #b8b8b8
+window.active.button.unpressed.bg.colorTo: #7a7a7a
+window.active.button.unpressed.image.color: #4f4f4f
+window.inactive.button.unpressed.bg: raised gradient vertical
+window.inactive.button.unpressed.bg.color: #a4a4a4
+window.inactive.button.unpressed.bg.colorTo: #686868
+window.inactive.button.unpressed.image.color: #4f4f4f
+
+window.active.button.pressed.bg: sunken gradient vertical
+window.active.button.pressed.bg.color: #686868
+window.active.button.pressed.bg.colorTo: #a4a4a4
+window.inactive.button.pressed.bg: sunken gradient vertical
+window.inactive.button.pressed.bg.color: #4f4f4f
+window.inactive.button.pressed.bg.colorTo: #727272
+
+window.active.button.disabled.bg: raised gradient vertical
+window.active.button.disabled.bg.color: #b8b8b8
+window.active.button.disabled.bg.colorTo: #7a7a7a
+window.active.button.disabled.image.color: #b8b8b8
+window.inactive.button.disabled.bg: raised gradient vertical
+window.inactive.button.disabled.bg.color: #a4a4a4
+window.inactive.button.disabled.bg.colorTo: #686868
+window.inactive.button.disabled.image.color: #a4a4a4
+
+window.active.client.color: #a4a4a4
+window.inactive.client.color: #686868
+
+window.active.handle.bg: raised gradient vertical
+window.active.handle.bg.color: #a4a4a4
+window.active.handle.bg.colorTo: #686868
+window.inactive.handle.bg: raised gradient vertical
+window.inactive.handle.bg.color: #727272
+window.inactive.handle.bg.colorTo: #4f4f4f
+
+window.active.grip.bg: sunken gradient vertical
+window.active.grip.bg.color: #686868
+window.active.grip.bg.colorTo: #a4a4a4
+window.inactive.grip.bg: sunken gradient vertical
+window.inactive.grip.bg.color: #686868
+window.inactive.grip.bg.colorTo: #a4a4a4
+
+border.color:        #000000
+
+padding.width:       1
+border.width:        1
+window.client.padding.width:       0
+window.handle.width:        4
+
+*justify:       left
+
+!rootCommand: bsetroot -solid black
+*font: sans:pixelsize=11
+
+! though I'm past one hundred thousand miles, I'm feeling very still

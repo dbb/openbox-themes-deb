@@ -1,0 +1,108 @@
+
+menu.title.bg: raised gradient vertical bevel 1
+menu.title.bg.color: #afbd85
+menu.title.bg.colorTo: #9dab7b
+menu.title.text.color: #fcfcfe
+menu.title.text.justify: center
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #f6f6f6
+menu.items.bg.colorTo: #000000
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #565248
+
+menu.items.active.bg: flat  border solid bevel1
+menu.items.active.bg.color: #afbd85
+menu.items.active.bg.colorTo: #5a71c5
+menu.items.active.text.color: #000000
+menu.items.active.bg.border.color: #f6f6f6
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: Raised solid
+window.active.title.bg.color: #afbd85
+window.active.title.bg.colorTo: #9dab7b
+
+window.active.handle.bg:  raised gradient vertical bevel 2
+window.active.handle.bg.color: #afbd85
+window.active.handle.bg.colorTo: #afbd85
+
+window.active.grip.bg:  raised gradient vertical bevel1
+window.active.grip.bg.color: #e6e6e6
+window.active.grip.bg.colorTo: #cdcac7
+
+window.active.label.bg: parentrelative
+window.active.label.bg.color: #000000
+window.active.label.bg.colorTo: #000000
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: flat border
+window.active.button.unpressed.bg.color: #7d8f56
+#window.active.button.unpressed.bg.colorTo: #7399cd
+window.active.button.unpressed.image.color: #ffffff
+window.active.button.unpressed.bg.border.color: #ffffff
+
+window.active.button.pressed.bg: flat border solid
+window.active.button.pressed.bg.color: #222222
+window.active.button.pressed.bg.colorTo: #000000
+window.active.button.pressed.bg.border.color: #ffffff
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: raised gradient vertical bevel1
+window.inactive.title.bg.color: #e1e1e1
+window.inactive.title.bg.colorTo: #c5c2c5
+
+window.inactive.handle.bg:  raised gradient vertical bevel1
+window.inactive.handle.bg.color: #e6e6e6
+window.inactive.handle.bg.colorTo: #cdcac7
+
+window.inactive.grip.bg: raised gradient vertical bevel1
+window.inactive.grip.bg.color: #e6e6e6
+window.inactive.grip.bg.colorTo: #cdcac7
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #7b7d7b
+
+window.inactive.button.unpressed.bg: flat border gradient vertical
+window.inactive.button.unpressed.bg.color: #d5dad5
+window.inactive.button.unpressed.bg.colorTo: #b4b6b4
+window.inactive.button.unpressed.image.color:  #7b7d7b
+window.inactive.button.unpressed.bg.border.color: #7b7d7b
+
+window.inactive.button.pressed.bg: flat border solid
+window.inactive.button.pressed.bg.color: #c5c2c5
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+
+!#
+window.active.button.disabled.bg: flat border
+window.active.button.disabled.bg.color: #990000
+window.active.button.disabled.bg.colorTo: #990000
+window.active.button.disabled.image.color: #ffffff
+window.active.button.disabled.bg.border.color: #ffffff
+#
+window.inactive.button.disabled.bg: flat border gradient vertical
+window.inactive.button.disabled.bg.color: #d5dad5
+window.inactive.button.disabled.bg.colorTo: #b4b6b4
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #7b7d7b
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+border.color: #000000
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:bold:pixelsize=9:shadow=y:shadowoffset=1:shadowtint=75
+window.inactive.label.text.font: Bitstream Vera Sans:bold:pixelsize=9
+menu.items.font: Bitstream Vera Sans:pixelsize=11
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=10

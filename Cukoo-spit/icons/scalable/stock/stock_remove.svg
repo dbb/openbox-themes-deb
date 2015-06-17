@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 9.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20000303 Stylable//EN"   "http://www.w3.org/TR/2000/03/WD-SVG-20000303/DTD/svg-20000303-stylable.dtd" [
+	<!ENTITY st0 "fill:none;stroke:#FFFFFF;stroke-width:2.093;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st1 "fill-rule:evenodd;clip-rule:evenodd;fill:url(#aigrd1);stroke:none;">
+	<!ENTITY st2 "fill:none;stroke:none;">
+	<!ENTITY st3 "fill-rule:nonzero;clip-rule:nonzero;stroke:#000000;stroke-miterlimit:4;">
+	<!ENTITY st4 "stroke-width:1.0062;">
+]>
+<svg  width="24pt" height="24pt" viewBox="0 0 24 24" xml:space="preserve">
+	<g id="Layer_x0020_4" style="&st3;">
+		<path style="&st4;" d="M1.7,12.2c0,5.8,4.7,10.5,10.5,10.5c5.8,0,10.5-4.7,10.5-10.5c0-5.8-4.7-10.5-10.5-10.5C6.4,1.7,1.7,6.4,1.7,12.2z"/>
+		<radialGradient id="aigrd1" cx="9.1826" cy="8.3667" r="13.0908" fx="9.1826" fy="8.3667" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FED182"/>
+			<stop  offset="0.2809" style="stop-color:#FFB310"/>
+			<stop  offset="1" style="stop-color:#996E04"/>
+		</radialGradient>
+		<path style="&st1;" d="M21.1,12.2c0,5-4,9-9,9s-9-4-9-9c0-5,4-9,9-9s9,4,9,9z"/>
+		<path style="&st0;" d="M8.1,12.1h8.1"/>
+	</g>
+	<g id="Layer_x0020_1" style="&st3;">
+		<path style="&st2;" d="M24,24H0V0h24v24z"/>
+	</g>
+</svg>

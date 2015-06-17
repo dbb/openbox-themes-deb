@@ -1,0 +1,130 @@
+! title: cyclism
+! author: Safari_Al
+! email: tr@slackzone.org
+! box: open, number three
+!
+! comment: "So Jim dug along with the rest.  The earth was rich and warm,
+!           it smelled of all that was good, and his back did not ache as
+!           he had expected.  Nor did his knees... It might be, Jim thought,
+!           what hands were intednded for, this steady digging into the earth,
+!           as wings were meant for flying over the curve of the planet to
+!           another season.  He knelt and dug."
+!
+!                                           - David Malouf, _Fly Away Peter_
+!
+! info: root image courtesy of david coulson <d@vidcoulson.com>
+!                                            <http://davidcoulson.net>
+
+! menu
+
+menu.title.bg: raised gradient diagonal
+menu.title.bg.color: #7f7f8b
+menu.title.bg.colorTo: #000000
+menu.title.text.color: #acaebb
+
+menu.items.bg: raised gradient diagonal
+menu.items.bg.color: #343718
+menu.items.bg.colorTo: #000000
+menu.items.text.color: #5f6053
+menu.items.disabled.text.color: #47473e
+
+
+menu.items.active.bg: parentrelative
+menu.items.active.text.color: #fee9e4
+
+! window, focused
+
+window.active.title.bg: raised gradient diagonal
+window.active.title.bg.color: #7f7f8b
+window.active.title.bg.colorTo: #000000
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #fee9e4
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #acaebb
+
+window.active.button.pressed.bg: sunken gradient diagonal
+window.active.button.pressed.bg.color: #000000
+window.active.button.pressed.bg.colorTo: #7f7f8b
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #7c7e87
+
+window.active.handle.bg: raised gradient diagonal
+window.active.handle.bg.color: #343718
+window.active.handle.bg.colorTo: #000000
+
+window.active.grip.bg: raised gradient diagonal
+window.active.grip.bg.color: #7f7f8b
+window.active.grip.bg.colorTo: #000000
+
+window.active.client.color: #7f7f8b
+
+! window, sans focus
+
+window.inactive.title.bg: raised gradient diagonal
+window.inactive.title.bg.color: #5d5d66
+window.inactive.title.bg.colorTo: #000000
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color:	#acaebb
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color:	#acaebb
+
+window.inactive.button.pressed.bg: sunken gradient diagonal
+window.inactive.button.pressed.bg.color: #000000
+window.inactive.button.pressed.bg.colorTo: #7f7f8b
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #595a61
+
+window.inactive.handle.bg: raised gradient diagonal
+window.inactive.handle.bg.color: #343718
+window.inactive.handle.bg.colorTo: #000000
+
+window.inactive.grip.bg: raised gradient diagonal
+window.inactive.grip.bg.color: #5d5d66
+window.inactive.grip.bg.colorTo: #000000
+
+window.inactive.client.color: #5d5d66
+
+! stuff
+
+border.width:	1
+padding.width:	2
+window.handle.width: 2
+window.client.padding.width:	1
+menu.overlap: 0
+border.color: #000000
+
+*justify: left
+window.active.label.text.font: sans:pixelsize=10
+menu.title.text.font: sans:pixelsize=10
+menu.items.font: sans:pixelsize=10
+
+! bbpager at one stage was the rocker of my socks
+
+bbpager.frame:				raised gradient diagonal
+bbpager.frame.bg.color:			#343718
+bbpager.frame.bg.colorTo:		#000000
+
+bbpager.desktop:			parentrelative
+bbpager.desktop.focus:			parentrelative
+
+bbpager.window:				raised gradient diagonal
+bbpager.window.bg.color:			#7f7f8b
+bbpager.window.bg.colorTo:		#000000
+bbpager.window.focus:			raised gradient diagonal
+bbpager.window.focus.bg.color:		#fee9e4
+bbpager.window.focus.bg.colorTo:		#000000
+
+bbpager.desktop.focusStyle:		border
+bbpager.window.focusStyle:		texture
+
+bbpager.active.desktop.bg.border.color:	#fee9e4
+bbpager.active.window.bg.border.color:	#000000
+bbpager.inactive.window.bg.border.color:	#000000
+
+! have a nice day

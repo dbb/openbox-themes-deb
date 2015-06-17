@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Simple-Orange
+Type=X-GNOME-Metatheme
+Comment=meh
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Simple-Orange
+MetacityTheme=Simple-Orange
+IconTheme=light-industry

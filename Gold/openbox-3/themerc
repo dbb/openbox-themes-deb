@@ -1,0 +1,123 @@
+! gold openbox theme, by crimeboy
+! based on zen gold flavors gtk theme
+!! Menu settings
+
+menu.title.bg:                  raised gradient vertical
+menu.title.bg.color:            #3E3C3A
+menu.title.bg.colorTo:          #0e0e0e
+menu.title.text.color:          #878772
+menu.title.text.justify:                center
+
+menu.items.bg:                  flat gradient vertical
+menu.items.bg.color:            #e8e8e8
+menu.items.bg.colorTo:          #d2d2d2
+menu.items.text.color:          #101010
+menu.items.justify:             left
+
+menu.items.active.bg: raised  gradient vertical
+menu.items.active.bg.color: #e3ca9c
+menu.items.active.bg.colorTo: #8b745c
+menu.items.active.text.color: #232321
+menu.items.active.bg.border.color: #7d7c7c
+menu.bullet.selected.image.color: #ffffff
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #88754c
+
+window.active.title.bg: raised  gradient vertical
+window.active.title.bg.color: #e3ca9c
+window.active.title.bg.colorTo: #8b754c
+
+window.active.handle.bg: raised gradient vertical
+window.active.handle.bg.color: #e3ca9c
+window.active.handle.bg.colorTo: #0e0e0e
+
+window.active.grip.bg: parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.bg.color: #e3ca9c 
+window.active.label.bg.colorTo:#8b754c
+window.active.label.text.color: #101010
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #101010
+
+window.active.button.pressed.bg: flat gradient vertical border
+window.active.button.pressed.image.color: #5a8a96
+window.active.button.pressed.bg.color: #8b754c
+window.active.button.pressed.bg.colorTo:#e3ca9c
+window.active.button.pressed.bg.border.color: #101010
+
+window.active.button.disabled.bg: flat gradient vertical border 
+window.active.button.disabled.color: #8b754c
+window.active.button.disabled.colorTo: #e3ca9c
+window.active.button.disabled.image.color: #e3ca9c
+window.active.button.diabled.bg.border.color: #e3ca9c
+
+window.active.button.toggled.bg: flat gradient vertical border
+window.active.button.toggled.image.color: #e3ca9c
+window.active.button.toggled.bg.color: #e3ca9c
+window.active.button.toggled.bg.colorTo:#8b754c
+window.active.button.toggled.bg.border.color: #e3ca9c
+
+!! unfocused window settings
+#window.frame.unfocusColor: #878387
+
+window.inactive.title.bg: raised gradient vertical
+window.inactive.title.bg.color: #e3ca9c
+window.inactive.title.bg.colorTo: #8b754c
+
+
+window.inactive.handle.bg: raised gradient vertical
+window.inactive.handle.bg.color: #e3ca9c
+window.inactive.handle.bg.colorTo: #8b754c
+
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #8b754c
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #8b754c
+
+
+window.inactive.button.pressed.bg: flat gradient vertical border
+window.inactive.button.pressed.bg.color: #e3ca9c
+window.inactive.button.pressed.bg.colorTo: #8b754c
+window.inactive.button.pressed.bg.border.color: #8b754c
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #999999
+
+
+window.inactive.button.toggled.bg: flat gradient vertical border
+window.inactive.button.toggled.image.color: #8b754c
+window.inactive.button.toggled.bg.color: #e3ca9c
+window.inactive.button.toggled.bg.colorTo: #8b754c
+window.inactive.button.toggled.bg.border.color: #8b754c
+
+window.inactive.client.color: #8b754c
+window.active.client.color: #8b754c
+window.frameColor: #8b754c
+!! Global width settings
+border.Width: 0
+padding.width: 2
+window.handle.width: 3
+window.client.padding.width: 0
+menu.overlap: 3
+
+!! Miscellaneous settings
+border.color: #101010
+
+!! font me!
+!window.active.label.text.font: Arial:size=8:shadow=y:shadowtint=-2:shadowoffset=1
+window.active.label.text.font: snap HeldustryFTVBasic Demi:size=7
+menu.items.font: snap HeldustryFTVBasic Demi:size=7
+!menu.title.text.font: Arial:size=8:shadow=y:shadowtint=-2:shadowoffset=1
+menu.title.text.font: snap HeldustryFTVBasic Demi:size=7
+
+
+

@@ -1,0 +1,202 @@
+This package was originally debianized by Chris Anderson on April 11,
+2004.  The current version was debianized by Chess Griffin
+<chess@chessgriffin.com> on Tue, 02 Oct 2007 11:46:12 -0400.
+
+Upstream authors:
+
+The following themes were created by David Barr, are licensed under
+the GPL (see below), and are found at
+http://david.chalkskeletons.net/files/
+arctic
+ayunb
+bbstyle
+chaos2
+cukoo-spit
+curdled
+day
+debian
+ebox
+fog
+fog-i
+fog-maths
+fog-mine
+fog-t
+fvwmish
+gd-fog
+gelb
+gelb-chubby
+greenz
+i-merry
+i-merryb
+isawagorilla
+jolly
+kong
+light-industry
+mavos
+merrycity
+mist
+misted
+nop
+ob-in-dustry
+oldred
+opensaw
+operation
+orange-fog
+palerider
+planton
+rabbit
+raffles
+real-milk
+spiffe
+spiffish
+spoff
+thebear
+turq
+weightless-industry
+Simple-*
+
+The following themes were created by Tim Riley, are licensed under the
+Artistic License (see below), and are found at 
+http://tr.openmonkey.com/pages/openbox
+Anchos
+Bland
+Cyclism
+Deep
+Mars
+Peptide
+Seven
+
+The following themes were created by Dave Foster, are licensed under
+the Artistic License (see below), and are found at 
+http://www.minuslab.net/themes
+Airborne
+Bloohax
+Flax
+Mist-Ashen
+M0nst4-sky
+Nxpro
+Squadron
+SublimeWhite
+Taqua
+TropicBomb
+
+The following themes were created by crimeboy, are licensed uner the
+GPL (see below), and are found at http://celo.wordpress.com/themes
+AbsE
+Gold
+Sodio
+Wblue
+Zen yellow
+
+The following themes were create by lyrae, are licensed under the GPL
+(see below), and are found at 
+http://box-look.org/content/show.php/Mire+v2?content=60195
+Mire_v2_blue
+Mire_v2_grey
+Mire_v2_lime
+Mire_v2_orange
+Mire_v2_pink
+
+The following theme was created by gabehcuod, is licensed under the
+WTFPL (http://sam.zoy.org/wtfpl/COPYING), and is found at 
+http://box-look.org/content/show.php/Murrina-Tangoesque?content=66198
+Murrina-Tangoesque
+
+The following theme was modified by Zebo, is licensed under the GPL
+(see below), and is found at 
+http://box-look.org/content/show.php/Human-like?content=62995
+Openbox-Human-Like
+
+The following theme was created by lost son, is licensed under the GPL
+(see below), and is found at 
+http://box-look.org/content/show.php/ob-glossy?content=66455
+OB-glossy
+
+The following theme was created by johnisevil, is licensed under the
+Artistic License (see below), and is found at 
+http://box-look.org/content/show.php/Mint?content=64896
+Mint
+
+The following theme was created by uk dasai, is licensed under the
+GPL (see below), and is found at 
+http://box-look.org/content/show.php/PixelElegance?content=63614
+Pixel-Elegance-1.1
+
+The following theme was created by lyraei, is licensed under the GPL
+(see below), and is found at 
+http://box-look.org/content/show.php/Dyne?content=62000
+Dyne
+
+The following themes were created by lyraei, are licensed under the
+GPL (see below), and are found at 
+http://box-look.org/content/show.php/Nova?content=60053
+Nova-Blue
+Nova-Gold
+Nova-Lime
+Nova-Pink
+
+The following theme was created by roberth1990i, is licensed under the
+GPL (see below), and is found at 
+http://box-look.org/content/show.php/Simple?content=59707
+Simple
+
+The following theme was created by envyyouraudience, is licensed under
+the GPL (see below), and is found at 
+http://box-look.org/content/show.php/bear-tangerine?content=59636
+Bear-Tangerine
+
+The following theme was created by gabehcuod, is licensed under the
+WTFPL (http://sam.zoy.org/wtfpl/COPYING), and is found at 
+http://box-look.org/content/show.php/Carbon?content=59418
+Carbon
+
+The following theme was created by pllb, is licensed under the GPL
+(see below), and is found at 
+http://box-look.org/content/show.php/Surreal+-+Openbox?content=66397
+Surreal
+
+The following theme was created by johnisevili, is licensed under the
+Artistic 2.0 License, and is found at 
+http://box-look.org/content/show.php/Neo?content=62379
+Neo
+
+The following theme was created by envyyouraudience, is licensed under
+the GPL (see below), and is found at 
+http://box-look.org/content/show.php/Bamboo?content=62861
+Bamboo
+
+The following theme was created by AquaFoxi, is licensed under the
+GPL (see below), and is found at 
+http://box-look.org/content/show.php/Onyx-black?content=62398
+Onyx-Black
+
+The following theme was created by Zero-Gravity, is licensed under the
+GPL (see below), and is found at 
+http://box-look.org/content/show.php/Loma?content=65285
+Loma
+
+Copyright:
+
+   This package is free software; you can redistribute it and/or
+   modify it under the terms of the GNU General Public License as
+   published by the Free Software Foundation; version 2 dated June,
+   1991.
+
+   This package is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+   02110-1301, USA.
+
+On Debian systems, the complete text of the GNU General Public License
+can be found in `/usr/share/common-licenses/GPL'.
+
+On Debian systems, the complete text of the Artistic License 
+can be found in `/usr/share/common-licenses/Artistic'.
+
+The Debian packaging is (c)2007, Chess Griffin
+<chess@chessgriffin.com> and is licensed under the GPL, see above.

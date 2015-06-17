@@ -1,0 +1,107 @@
+!! TropicOcean by GaMMa
+!! More themes @ http://www.gammaradiation.tk/
+!! Menu settings
+
+menu.title.bg: vertical gradient
+menu.title.bg.color: #8fb921
+menu.title.bg.colorTo: #bce94f
+menu.title.text.color: black
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #ffffff
+menu.items.text.color: #666666
+menu.items.text.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: vertical gradient
+menu.items.active.bg.color: #8fb921
+menu.items.active.bg.colorTo: #bce94f
+menu.items.active.text.color: black
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: vertical gradient
+window.active.title.bg.color: #8fb921
+!! window.active.title.bg.colorTo: #ffffff
+window.active.title.bg.colorTo: #bce94f
+!! window.active.title.bg.interlace.color: #2a3d41
+window.active.title.bg.border.color: #ffffff
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #ffffff
+
+window.active.grip.bg: vertical gradient
+window.active.grip.bg.color: #8fb921
+window.active.grip.bg.colorTo: #bce94f
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  black
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #666666
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #000000
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #ffffff
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #ffffff
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #ffffff
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #cccccc
+
+window.inactive.button.unpressed.bg: flat
+window.inactive.button.unpressed.bg.color: #ffffff
+window.inactive.button.unpressed.image.color: #cccccc
+
+window.inactive.button.pressed.bg: flat 
+window.inactive.button.pressed.bg.color: #b8bbbd
+window.inactive.button.pressed.image.color: #d9d9d9
+
+!#buttons new
+window.active.button.disabled.bg: flat
+window.active.button.disabled.bg.color: #768b9c
+window.active.button.disabled.image.color: #768b9c
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.bg.color: #b8bbbd
+window.inactive.button.disabled.image.color: #b8bbbd
+
+window.active.button.toggled.bg: flat
+window.active.button.toggled.bg.color: #768b9c
+window.active.button.toggled.image.color: #d1d6db
+
+window.inactive.button.toggled.bg: flat
+window.inactive.button.toggled.bg.color: #b8bbbd
+window.inactive.button.toggled.image.color: #d9d9d9
+
+!! Global width settings
+borderWidth: 2
+padding.width: 1
+window.handle.width: 2
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: #adadad
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:pixelsize=10:shadow=n
+window.inactive.label.text.font: Bitstream Vera Sans::pixelsize=10:shadow=n
+menu.items.font:  Bitstream Vera Sans:pixelsize=9
+menu.title.text.font: Bitstream Vera Sans:pixelsize=10:shadow=n

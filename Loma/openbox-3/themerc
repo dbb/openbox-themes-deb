@@ -1,0 +1,101 @@
+!!Theme 	Loma by zero-gravity
+!!License	GPL3
+
+!! ------------- Menu --------------
+
+!! ---Border
+menu.border.width:	1
+
+!! ---Text
+menu.title.text.justify:		Left
+menu.title.text.color: 			#ffffff
+
+menu.items.text.color:			#000000
+menu.items.disabled.text.color:		#cccccc
+
+menu.items.active.text.color:		#b7b89f
+menu.items.active.disabled.text.color:	#666666
+
+
+!! ---Backgrounds
+menu.items.bg:			Flat
+menu.items.bg.color:		#f4edd3
+
+menu.items.active.bg:		Flat
+menu.items.active.bg.color:	#423a3a
+
+menu.title.bg: 			Gradient Vertical
+menu.title.bg.color:		#423a3a
+menu.title.bg.colorTo:		#000000
+
+
+!! ------------- Active windows --------------
+
+!! ---Borders
+border.width:				1
+window.client.padding.width: 		1
+window.client.padding.height: 		0
+window.active.border.color: 		#000000
+window.active.client.color: 		#000000
+
+!! ---Grip & Handle
+window.handle.width:			7
+window.active.grip.bg:			Parentrelative
+
+window.active.handle.bg: 		Gradient Vertical
+window.active.handle.bg.color: 		#000000
+window.active.handle.bg.colorTo: 	#423a3a
+
+
+!! ---Text
+window.label.text.justify: 		Center
+window.active.label.text.color: 	#b7b89f
+
+!! ---Backgrounds
+window.active.label.bg: 		Parentrelative
+
+window.active.title.bg:			Raised Gradient Vertical
+window.active.title.bg.color:		#423a3a
+window.active.title.bg.colorTo:		#000000
+
+!! ---Buttons unpressed
+window.active.button.unpressed.bg: 		Parentrelative
+window.active.button.unpressed.image.color: 	#b7b89f
+
+!! ---Buttons pressed
+window.active.button.pressed.bg: 		Parentrelative
+window.active.button.pressed.image.color: 	#b7b89f
+
+!! ---Buttons hover
+window.active.button.hover.bg: 			Parentrelative
+window.active.button.hover.image.color: 	#ffffff
+
+
+!! ------------- Inactive windows ------------
+
+!! ---Borders
+window.inactive.border.color: 		#000000
+window.inactive.client.color: 		#000000
+
+!! ---Grip & Handle
+window.inactive.handle.width:		2
+window.inactive.grip.bg:		Parentrelative
+
+window.inactive.handle.bg: 		Flat
+window.inactive.handle.bg.color: 	#000000
+
+!! ---Text
+window.inactive.label.text.justify: 	Center
+window.inactive.label.text.color: 	#888880
+
+!! ---Backgrounds
+window.inactive.label.bg: 		Parentrelative
+
+window.inactive.title.bg:		Gradient Vertical
+window.inactive.title.bg.color:		#252323
+window.inactive.title.bg.colorTo:	#423a3a
+
+!! ---Buttons unpressed
+window.inactive.button.unpressed.bg: 			Parentrelative
+window.inactive.button.unpressed.image.color: 		#000000
+window.inactive.button.toggled.bg:			Parentrelative

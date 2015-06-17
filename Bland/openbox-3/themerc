@@ -1,0 +1,87 @@
+! bland
+! by safari_al <tr@slackzone.org>
+! for openbox3
+! to match the default gtk2 theme.
+
+! ***** !
+
+window.active.title.bg: raised solid
+window.active.title.bg.color: #4B6983
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #EEEBE7
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #EEEBE7
+
+window.active.button.pressed.bg: sunken solid
+window.active.button.pressed.bg.color: #4B6983
+window.active.button.pressed.image.color: #EEEBE7
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #728fa8
+
+window.active.handle.bg: raised solid
+window.active.handle.bg.color: #DCDAD5
+
+window.active.grip.bg: raised solid
+window.active.grip.bg.color: #4B6983
+
+window.active.client.color: #DCDAD5
+
+! ***** !
+
+window.inactive.title.bg: raised solid
+window.inactive.title.bg.color: #4B6983
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #728fa8
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #4B6983
+
+window.inactive.button.pressed.bg: sunken solid
+window.inactive.button.pressed.bg.color: #4B6983
+window.inactive.button.pressed.image.color: #4B6983
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #4B6983
+
+window.inactive.handle.bg: raised solid
+window.inactive.handle.bg.color: #DCDAD5
+
+window.inactive.grip.bg: raised solid
+window.inactive.grip.bg.color: #DCDAD5
+
+window.inactive.client.color: #DCDAD5
+
+! ***** !
+
+menu.title.bg: raised solid
+menu.title.bg.color: #DCDAD5
+menu.title.text.color: #000000
+menu.title.text.justify: left
+
+menu.items.bg: raised solid
+menu.items.bg.color: #DCDAD5
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #6E6D6A
+menu.items.justify: left
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #4B6983
+menu.items.active.text.color: #EEEBE7
+
+! ***** !
+
+border.width: 1
+padding.width: 2
+window.handle.width: 4
+window.client.padding.width: 1
+menu.overlap: 6
+border.color: #000000
+
+*font: sans-9:shadow=n
+!rootCommand: xsetroot -solid rgb:DC/DA/D5
+
+! gtk+ for life

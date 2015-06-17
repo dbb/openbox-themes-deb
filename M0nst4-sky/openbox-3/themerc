@@ -1,0 +1,104 @@
+!! m0nst4-sky - hacked together by Dave Foster <daf@minuslab.net>
+!! Color mod of syscrash2k's rendition of okrait's pekwm m0nst4 port
+!! of chr!z's fluxbox theme.  Say that in one breath.
+
+!! pekwm theme: http://www.hewphoria.com/?p=themes&id=64
+!! fluxbox theme: http://www.deviantart.com/deviation/581961/
+
+!! Requires the "nu" font from the artwiz-aleczapka-en package.
+!! I take no responsibility for the mess below :P
+
+!! Menu settings
+!! #1e4465 = accent colour, change to whatever if you like
+!! i be a mess
+!! bg #f2f2f2
+
+menu.title.bg:  raised solid bevel1
+menu.title.bg.color: #383838
+menu.title.text.color: #888888
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #383838
+menu.items.text.color: #d0e0e0
+menu.items.disabled.text.color: #000000
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #d6fefe
+menu.items.active.text.color: #000000
+
+!! General window settings
+*.justify: left
+
+!! focused window settings
+window.active.client.color: #f2f2f2
+
+window.active.title.bg: raised solid bevel1
+window.active.title.bg.color: #383838
+window.active.title.bg.border.color: #000000
+
+window.active.handle.bg: raised solid bevel1
+window.active.handle.bg.color: #383838
+
+window.active.grip.bg: parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #d6fefe
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #d0e0e0
+
+window.active.button.pressed.bg: flat solid bevel1
+window.active.button.pressed.bg.color: #999999
+window.active.button.pressed.image.color: #dddddd
+
+!#hover?
+window.active.button.hover.bg: flat solid
+!#window.active.button.hover.image.color: #ffffff
+window.active.button.hover.bg.color: #94a4ac
+
+window.active.button.disabled.image.color: #1e4465
+
+!! unfocused window settings
+window.inactive.client.color: #f2f2f2
+
+window.inactive.title.bg: raised solid bevel1
+window.inactive.title.bg.color: #383838
+window.inactive.title.bg.border.color: #000000
+
+window.inactive.handle.bg: raised solid bevel1
+window.inactive.handle.bg.color: #383838
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #888888
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.image.color: #d0e0e0
+
+window.inactive.button.pressed.bg: flat border solid bevel1
+window.inactive.button.pressed.bg.color: #c8c8c8
+window.inactive.button.pressed.bg.border.color: #e5e5e5
+
+window.inactive.button.disabled.image.color:  #f2f2f2
+
+!#hover?
+window.inactive.button.hover.bg: flat solid
+!#window.active.button.hover.image.color: #ffffff
+window.inactive.button.hover.bg.color: #f6f6f6
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 2
+
+!! Miscellaneous settings
+border.color: #000000
+!! font me!
+window.active.label.text.font: nu
+window.inactive.label.text.font: nu
+
+menu.title.text.font: nu
+menu.items.font: nu
+

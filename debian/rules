@@ -1,0 +1,38 @@
+#!/usr/bin/make -f
+# Sample debian/rules that uses debhelper.
+# GNU copyright 1997 to 1999 by Joey Hess.
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+build: 
+	# Nothing to do here
+
+binary: binary-arch binary-indep
+	# Nothing to do here
+
+binary-arch:
+	# Nothing to do here
+
+binary-indep:
+	dh_testdir
+	dh_installdirs
+
+	# Custom package commands needed
+	for theme in `ls`; do [ "$$theme" != "debian" ] && \
+	mkdir -p debian/openbox-themes/usr/share/themes/$$theme/ && \
+	cp -r $$theme/openbox-3/ debian/openbox-themes/usr/share/themes/$$theme/; \
+	if test -e $$theme/gtk-2.0/ ; then cp -r $$theme/gtk-2.0 debian/openbox-themes/usr/share/themes/$$theme/; fi \
+	done
+
+	# Resuming the debhelper commands
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_fixperms
+	dh_compress
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+.PHONY: binary binary-arch binary-indep build clean 

@@ -1,0 +1,150 @@
+!this is the same as gd fog but with a really gross i am endeared towards
+!basiclly if you 'find and replace' #2182bd it will change the focus/accent colour.
+
+!! Menu settings
+
+menu.title.bg: raised solid bevel1
+menu.title.bg.color: #2182bd
+menu.title.bg.border.color: #4a6984
+menu.title.text.color: #ffffff
+menu.title.text.justify: Center
+
+menu.items.bg: flat solid bevel1
+menu.items.bg.color: #e6e7e6
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #222222
+
+menu.items.active.bg: flat solid border bevel1
+menu.items.active.bg.color: #2182bd
+menu.items.active.bg.border.color: #e6e7e6
+menu.items.active.text.color: #ffffff
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+!! General window settings
+window.active.button.pressed.bg: flat solid bevel1
+window.inactive.button.pressed.bg: flat solid bevel1
+window.button.pressed.bg.color: #000000
+window.button.pressed.bg.colorTo: #000000
+window.button.pressed.bg.border.color: #000000
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: raised solid bevel1
+window.active.title.bg.color: #2182bd
+window.active.title.bg.border.color: #4a6984
+
+window.active.handle.bg: raised solid bevel1
+window.active.handle.bg.color: #2182bd
+window.active.handle.bg.colorTo: #425c71
+window.active.handle.bg.border.color: #000000
+
+window.active.grip.bg: parentrelative
+window.active.grip.bg.color: #8caa84
+window.active.grip.bg.colorTo: #739673
+window.active.grip.bg.border.color: #000000
+
+window.active.label.bg: parentrelative
+window.active.label.bg.color: #958da0
+window.active.label.bg.colorTo: #000000
+window.active.label.bg.border.color: #000000
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.bg.color: #42657b
+window.active.button.unpressed.bg.colorTo: #315573
+window.active.button.unpressed.bg.border.color: #e8e8e8
+window.active.button.unpressed.image.color: #ffffff
+
+window.active.button.pressed.bg: flat solid bevel1
+window.active.button.pressed.bg.color: #738fae
+window.active.button.pressed.bg.colorTo: #000000
+window.active.button.pressed.bg.border.color: #ffffff
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: raised solid
+window.inactive.title.bg.color: #e6e7e6
+window.inactive.title.bg.colorTo: #a5a2a5
+window.inactive.title.bg.border.color: #b5b2b5
+
+window.inactive.handle.bg: raised solid
+window.inactive.handle.bg.color: #e6e7e6
+window.inactive.handle.bg.colorTo: #a5a2a5
+window.inactive.handle.bg.border.color: #000000
+
+window.inactive.grip.bg: raised solid
+window.inactive.grip.bg.color: #e6e7e6
+window.inactive.grip.bg.colorTo: #a5a2a5
+window.inactive.grip.bg.border.color: #000000
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.bg.color: #cdcac7
+window.inactive.label.bg.colorTo: #000000
+window.inactive.label.bg.border.color: #000000
+window.inactive.label.text.color: #7b7d7b
+
+window.inactive.button.unpressed.bg: flat solid
+window.inactive.button.unpressed.bg.color: #e6e7e6
+window.inactive.button.unpressed.bg.colorTo: #b4aeb4
+window.inactive.button.unpressed.bg.border.color: #e6e7e6
+window.inactive.button.unpressed.image.color: #7b7d7b
+
+window.inactive.button.pressed.bg: flat border solid bevel1
+window.inactive.button.pressed.bg.color: #c8c8c8
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.pressed.bg.border.color: #e5e5e5
+
+!#disabled
+window.active.button.disabled.bg: flat solid border
+window.active.button.disabled.bg.color: #990000
+window.active.button.disabled.image.color: #ffffff
+window.active.button.disabled.bg.border.color: #ffffff
+
+window.inactive.button.disabled.bg: flat border gradient vertical
+window.inactive.button.disabled.bg.color: #d5dad5
+window.inactive.button.disabled.bg.colorTo: #b4b6b4
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #a4b2c5
+
+!#hover
+window.active.button.hover.bg: flat solid
+window.active.button.hover.image.color: #ffffff
+window.active.button.hover.bg.color: #35a2e7
+
+window.button.hover.toggled.unfocus: flat border gradient vertical
+window.button.hover.toggled.unfocus.bg.color: #f7f7f7
+window.button.hover.toggled.unfocus.bg.colorTo: #f7f7f7
+window.button.hover.toggled.unfocus.image.color:  #acaeac
+window.button.hover.toggled.unfocus.bg.border.color: #c5c6c5
+
+!#toggles
+window.active.button.toggled.bg: flat border solid bevel1
+window.active.button.toggled.bg.color: #2182bd
+window.active.button.toggled.image.color: #ffffff
+window.active.button.unpressed.bg.border.color: #e8e8e8
+
+window.inactive.button.toggled.bg: flat border solid bevel1
+window.inactive.button.toggled.bg.color: #f7f7f7
+window.inactive.button.toggled.image.color:  #acaeac
+
+
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 8
+!! Miscellaneous settings
+border.color: #1a1a1a
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:pixelsize=10:bold
+menu.items.font: Bitstream Vera Sans:pixelsize=11
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=10
+

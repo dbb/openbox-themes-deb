@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Simple-Aubergine
+Type=X-GNOME-Metatheme
+Comment=meh
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Simple-Aubergine
+MetacityTheme=Simple-Aubergine
+IconTheme=Industrial-Light

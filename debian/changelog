@@ -1,0 +1,26 @@
+openbox-themes (1.0.2) unstable; urgency=low
+
+  * New maintainer (closes: #439045)
+  * Added new themes compatible with Openbox 3.4.x (closes: #351456)
+  * Fixed directory names so they all start with a capital letter per
+    Openbox themeing guidelines
+  * Other small tweaks to debian/* files
+  * Updated debian/copyright file
+
+ -- Chess Griffin <chess@chessgriffin.com>  Tue, 02 Oct 2007 11:45:26 -0400
+
+openbox-themes (1.0.1) unstable; urgency=low
+
+  * Updated build to loop instead of treating each theme statically
+  * Fixed copyright file so it is more easily readable
+  * Added Simple-* theme series (Author: David Barr)
+  * Removed matrix theme at the request of upstream
+  * Fixed color syntax errors in mavos and oldred themes (Closes #256605)
+
+ -- Chris Anderson <chris@nullcode.org>  Tues, 30 Jun 2004 12:02:22 -0400
+
+openbox-themes (1.0.0) unstable; urgency=low
+
+  * Initial Release. 
+
+ -- Chris Anderson <chris@nullcode.org>  Sun, 11 Apr 2004 20:13:46 -0400

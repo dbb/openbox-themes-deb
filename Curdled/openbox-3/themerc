@@ -1,0 +1,115 @@
+
+!! Menu settings
+
+menu.title.bg: flat gradient vertical bevel1
+menu.title.bg.color: #f5f6f8
+menu.title.bg.colorTo: #aaa9b1
+menu.title.text.color: #333333
+menu.title.text.justify: left
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #f5f5f5
+menu.items.text.color: #222222
+menu.items.disabled.text.color: #565248
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #c8c8c8
+menu.items.active.bg.colorTo:#c7c7c7
+menu.items.active.text.color: #222222
+menu.items.active.bg.border.color: #7d7c7c
+menu.bullet.selected.image.color: #ffffff
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #787a95
+
+window.active.title.bg: flat gradient vertical bevel1
+window.active.title.bg.color: #ffffff
+window.active.title.bg.colorTo: #aaa9b1
+
+window.active.handle.bg: flat gradient vertical bevel1
+window.active.handle.bg.color: #fefefe
+window.active.handle.bg.colorTo: #93929a
+
+window.active.grip.bg: parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #333333
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #333333
+
+window.active.button.hover.bg: flat solid border
+window.active.button.hover.image.color: #333333
+window.active.button.hover.bg.color: #ececef
+window.active.button.hover.bg.border.color: #000000
+
+window.active.button.pressed.bg: flat solid border
+window.active.button.pressed.image.color: #b3b3b4
+window.active.button.pressed.bg.color: #ececef
+window.active.button.pressed.bg.border.color: #000000
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #888888
+
+window.active.button.toggled.bg: flat solid border
+window.active.button.toggled.image.color: #333333
+window.active.button.toggled.bg.color: #dddddd
+window.active.button.toggled.bg.border.color: #000000
+
+!! unfocused window settings
+#window.frame.unfocusColor: #a5a5a5
+
+window.inactive.title.bg: flat gradient vertical bevel1
+window.inactive.title.bg.color: #e6e6e8
+window.inactive.title.bg.colorTo: #aaa9b1
+
+window.inactive.handle.bg: flat gradient vertical bevel1
+window.inactive.handle.bg.color: #e6e6e8
+window.inactive.handle.bg.colorTo: #aaa9b1
+
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #666666
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #555555
+
+window.inactive.button.pressed.bg: flat gradient vertical bevel1 
+window.inactive.button.pressed.bg.color: #919191
+window.inactive.button.pressed.bg.colorTo: #5a5a5a
+window.inactive.button.pressed.bg.border.color: #000000
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #999999
+!#
+
+window.inactive.button.toggled.bg: flat solid border
+window.inactive.button.toggled.image.color: #555555
+window.inactive.button.toggled.bg.color: #dddddd
+window.inactive.button.toggled.bg.border.color: #000000
+
+window.inactive.client.color: #e0e0e0
+window.active.client.color: #e0e0e0
+
+!! Global width settings
+border.Width: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 8
+
+!! Miscellaneous settings
+border.color: #444444
+
+!! font me!
+window.active.label.text.font: Arial:size=8:shadow=y:shadowtint=-2:shadowoffset=1
+menu.items.font:Arial:size=8
+menu.title.text.font: Arial:size=8:shadow=y:shadowtint=-2:shadowoffset=1
+
+
+
+

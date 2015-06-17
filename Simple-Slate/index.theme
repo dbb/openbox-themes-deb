@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Simple-Slate
+Type=X-GNOME-Metatheme
+Comment=A minimalistic appearance based on Mist (with Openbox theme)
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Simple-Slate
+MetacityTheme=Mist
+IconTheme=Industrial-Light

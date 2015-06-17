@@ -1,0 +1,12 @@
+
+Here are a bunch of themes that *i* think give some consistency among different windowmanagers, they are basically all orange :) they should work if you dump them in ~/.themes or maybe even ~/local/share/themes (depending on when you read this)
+
+This will work for everything except the blackbox theme, which lord only know if they even have a standard place to install stuff yet? I would hazard a guess of; no.
+
+The 'accent' colour is from the ximian-pallete, and a fairly standard one anyway, i first saw something like it when looking at the delightful looking muine music player. (http://people.nl.linux.org/~jorn/Muine/).
+
+The 'accent' colour is consistent throughout all the themes so you can just change it by running something in the dir like: 
+
+perl -i -pe 's/#old/#new/' */*rc
+
+(Actually this won't work 100% because of some of the 'pressed' options, but it is a fairly neutral colour, so should be fine-ish)

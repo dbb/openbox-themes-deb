@@ -1,0 +1,108 @@
+!! Swordfish by GaMMa
+!! More themes @ http://www.gammaradiation.tk/
+!! Menu settings
+
+menu.title.bg: flat
+menu.title.bg.color: #424242
+menu.title.text.color: #ffffff
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #ffffff
+menu.items.bg.border.color: #bbb8a9
+menu.items.text.color: #81807c
+menu.items.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #f1f1f1
+menu.items.active.bg.border.color: #dbdbdb
+menu.items.active.text.color: black
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #424242
+window.active.title.bg.border.color: #ffffff
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #f3f3f3
+window.active.grip.bg: flat
+window.active.grip.bg.color: #424242
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #ffffff
+
+window.active.button.unpressed.bg: flat
+window.active.button.unpressed.bg.color: #424242
+window.active.button.unpressed.image.color: #ffffff
+
+window.active.button.pressed.bg: flat
+window.active.button.pressed.bg.color: #424242
+window.active.button.pressed.image.color: #a7a7a7
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+! window.inactive.title.bg.color: #ffffff
+window.inactive.title.bg.color: #424242
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #ffffff
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #f3f3f3
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #b0b0b0
+
+window.inactive.button.unpressed.bg: flat
+window.inactive.button.unpressed.bg.color: #424242
+window.inactive.button.unpressed.image.color: #969696
+
+window.inactive.button.pressed.bg: flat vertical gradient
+window.inactive.button.pressed.bg.color: #cacaca
+window.inactive.button.pressed.bg.colorTo: #ffffff
+
+!#buttons new
+window.active.button.disabled.bg: flat vertical gradient
+window.active.button.disabled.bg.color: #eda88b
+!!window.active.button.disabled.bg.colorTo: #ed8d65
+window.active.button.disabled.bg.colorTo: #b66c4d
+window.active.button.disabled.image.color: #ffffff
+
+window.inactive.button.disabled.bg: flat vertical gradient
+window.inactive.button.disabled.bg.color: #d6d6d6
+window.inactive.button.disabled.bg.colorTo: #9a9a9a
+window.inactive.button.disabled.image.color: #969696
+
+window.active.button.toggled.bg: flat
+window.active.button.toggled.bg.color: #424242
+window.active.button.toggled.image.color: #a7a7a7
+
+window.inactive.button.toggled.bg: flat
+window.inactive.button.toggled.bg.color: #ffffff
+window.inactive.button.toggled.image.color: #969696
+
+!! Global width settings
+borderWidth: 2
+padding.width: 1
+window.handle.width: 2
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: black
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=y
+window.inactive.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=n
+menu.items.font:  Bitstream Vera Sans:pixelsize=10
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=11:shadow=y

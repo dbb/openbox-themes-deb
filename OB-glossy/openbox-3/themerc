@@ -1,0 +1,84 @@
+!! ob-Glossy - by LostSon
+!! Based on the Glossy(fedora7) & Onyx(openbox) themes.
+
+
+!! Menu background
+menu.items.bg: flat gradient vertical
+menu.items.bg.color: #f9f7f3
+menu.items.bg.colorTo: #f9f7f3
+
+!! Menu text
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #606060
+
+!! Menu headers
+menu.title.bg: raised splitvertical gradient
+menu.title.bg.color: #5396d5
+menu.title.bg.colorTo: #5396d5
+menu.title.text.color: white
+menu.title.text.justify: center
+
+!! Selected menu item
+menu.items.active.bg: raised splitvertical gradient
+menu.items.active.bg.color: #5396d5
+menu.items.active.bg.colorTo: #5396d5
+menu.items.active.text.color: #f8f8f8
+
+!! Titlebar
+window.active.title.bg: raised splitvertical gradient
+window.active.title.bg.color: #5396d5
+window.active.title.bg.colorTo: #5396d5
+window.inactive.title.bg: gradient splitvertical gradient flat
+window.inactive.title.bg.color: #DEE0D8
+window.inactive.title.bg.colorTo: #E0E0D8
+
+!! Titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #747474
+
+!! Window buttons
+window.*.button.*.bg: parentrelative
+window.active.button.*.hover.bg: flat splitvertical gradient border
+window.inactive.button.*.hover.bg: parentrelative
+window.*.button.*.pressed.bg: flat splitvertical gradient border
+
+window.active.button.*.hover.bg.color: #398dc6
+window.active.button.*.hover.bg.colorTo: #236d83
+window.active.button.*.hover.bg.border.color: #236d83
+
+window.active.button.*.pressed.bg.color: #235679
+window.active.button.*.pressed.bg.colorTo: #154350
+window.active.button.*.pressed.image.color: #898989
+window.active.button.*.pressed.bg.border.color: #154350
+window.inactive.button.*.pressed.bg.color: #4ab5ff
+window.inactive.button.*.pressed.bg.colorTo: #38b3d6
+window.inactive.button.*.pressed.image.color: #b7fdef
+window.inactive.button.*.pressed.bg.border.color: #38b3d6
+
+window.active.button.*.image.color: #e0e0e0
+window.active.button.disabled.image.color: #707070
+window.inactive.button.*.image.color: #747474
+window.inactive.button.disabled.image.color: #c0c0c0
+
+!! Borders
+window.active.border.color: #ede9e3
+window.inactive.border.color: #ede9e3
+window.inactive.title.separator.color: #ede9e3
+border.width: 2
+padding.width: 1
+window.handle.width: 0
+window.active.client.color:  #ede9e3
+window.inactive.client.color:  #ede9e3
+window.client.padding.width: 1
+window.client.padding.height: 1
+menu.overlap: 0
+
+
+!! On-screen displays
+osd.bg: gradient vertical flat
+osd.bg.color: #5396d5
+osd.bg.colorTo: #5396d5

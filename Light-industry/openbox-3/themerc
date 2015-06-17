@@ -1,0 +1,124 @@
+!!total rip of ximian's industrial theme for metacity, by tigert, i believe.
+
+!! Menu settings
+
+menu.title.bg: raised gradient interlaced vertical bevel1
+menu.title.bg.color: #5e98e3
+menu.title.bg.colorTo: #486d9a
+menu.title.text.color: #fcfcfe
+menu.title.text.justify: center
+menu.title.bg.interlace.color: #4c82c8
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #f6f6f6
+
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #737573
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat solid bevel1
+menu.items.active.bg.color: #3971ac
+menu.items.active.bg.colorTo: #5a71c5
+menu.items.active.text.color: #ffffff
+menu.items.active.bg.border.color: #f6f6f6
+
+!! General window settings
+window.label.text.justify: center
+
+!! focused window settings
+window.active.client.color: #f6f6f6
+
+window.active.title.bg: Raised gradient interlaced vertical
+#window.active.title.bg.color: #a8c3e5
+#window.active.title.bg.colorTo: #5b7eac
+window.active.title.bg.color: #5e98e3
+window.active.title.bg.colorTo: #486d9a
+window.active.title.bg.interlace.color: #4c82c8
+
+window.active.handle.bg:  flat solid
+window.active.handle.bg.color: #f6f6f6
+window.active.handle.bg.colorTo: #486d9a
+window.active.handle.bg.interlace.color: #4575b5
+window.active.grip.bg:  parentrelative
+window.active.grip.bg.color: #5189e5
+window.active.grip.bg.colorTo: #316194
+
+window.active.label.bg: parentrelative
+window.active.label.bg.color: #000000
+window.active.label.bg.colorTo: #000000
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: flat border
+window.active.button.unpressed.bg.color: #395583
+window.active.button.unpressed.bg.colorTo: #7399cd
+window.active.button.unpressed.image.color: #ffffff
+window.active.button.unpressed.bg.border.color: #83aede
+
+window.active.button.pressed.bg: flat border solid
+window.active.button.pressed.bg.color: #314464
+window.active.button.pressed.bg.colorTo: #000000
+window.active.button.pressed.image.color: #dddddd
+window.active.button.pressed.bg.border.color: #83aede
+
+!! unfocused window settings
+window.inactive.client.color: #f6f6f6
+
+window.inactive.title.bg: raised solid
+window.inactive.title.bg.color: #f6f6f6
+window.inactive.title.bg.colorTo: #a5a2a5
+
+window.inactive.handle.bg:  flat gradient vertical bevel1
+window.inactive.handle.bg.color: #f6f6f6
+window.inactive.handle.bg.colorTo: #f6f6f6
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #e6e6e6
+window.inactive.grip.bg.colorTo: #cdcac7
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #acaeac
+
+window.inactive.button.unpressed.bg: flat border solid
+window.inactive.button.unpressed.bg.color: #f6f6f6
+window.inactive.button.unpressed.image.color:  #acaeac
+window.inactive.button.unpressed.bg.border.color: #c5c6c5
+
+window.inactive.button.pressed.bg: flat border solid
+window.inactive.button.pressed.bg.color: #c5c2c5
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+window.inactive.button.pressed.image.color: #999999
+
+window.active.button.toggled.bg: flat border solid
+window.active.button.toggled.bg.color: #f6f6f6
+window.active.button.toggled.image.color: #acaeac
+window.active.button.toggled.bg.border.color: #c5c6c5
+
+!!
+window.active.button.disabled.bg: flat border
+window.active.button.disabled.bg.color: #990000
+window.active.button.disabled.bg.colorTo: #990000
+window.active.button.disabled.image.color: #ffffff
+window.active.button.disabled.bg.border.color: #83aede
+!!
+window.inactive.button.disabled.bg: flat border gradient vertical
+window.inactive.button.disabled.bg.color: #d5dad5
+window.inactive.button.disabled.bg.colorTo: #b4b6b4
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #7b7d7b
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+border.color: #091d2e
+menu.overlap: 8
+window.frameColor: #f6f6f6
+
+!! font me!
+window.active.label.text.font:Bitstream Vera Sans:size=8:bold:shadow=y:shadowtint=70
+window.inactive.label.text.font:Bitstream Vera Sans:size=8:bold
+menu.items.font:Bitstream Vera Sans:size=8
+menu.title.text.font: Bitstream Vera Sans:size=8:shadow=y:shadowtint=60

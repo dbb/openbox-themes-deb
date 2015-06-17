@@ -1,0 +1,101 @@
+!!total rip of ximian's industrial theme for metacity, by tigert, i believe.
+
+!! Menu settings
+
+menu.title.bg: raised gradient vertical
+menu.title.bg.color: #5e98e3
+menu.title.bg.colorTo: #486d9a
+menu.title.text.color: #fcfcfe
+menu.title.text.justify: center
+menu.title.bg.interlace.color: #4575b5
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #f7f7f7
+menu.items.bg.colorTo: #000000
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #737573
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat solid bevel1
+menu.items.active.bg.color: #3971ac
+menu.items.active.bg.colorTo: #5a71c5
+menu.items.active.text.color: #ffffff
+menu.items.active.bg.border.color: #f6f6f6
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: raised gradient vertical
+window.active.title.bg.color: #5e98e3
+window.active.title.bg.colorTo: #486d9a
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #f7f7f7
+window.active.grip.bg:  parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #ffffff
+window.active.button.unpressed.bg.border.color: #83aede
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #dddddd
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #f7f7f7
+window.inactive.title.bg.colorTo: #a5a2a5
+
+window.inactive.handle.bg:  flat solid
+window.inactive.handle.bg.color: #f7f7f7
+window.inactive.handle.bg.colorTo: #f7f7f7
+
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #acaeac
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color:  #acaeac
+window.inactive.button.unpressed.bg.border.color: #c5c6c5
+
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+window.inactive.button.pressed.image.color: #dddddd
+
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #ffffff
+window.active.button.toggled.bg.border.color: #83aede
+
+!!
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #ffffff
+window.active.button.disabled.bg.border.color: #83aede
+!!
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #7b7d7b
+
+!! Global width settings
+borderWidth: 1
+padding.width: 2
+window.handle.width: 4
+window.client.padding.width: 0
+border.color: #091d2e
+menu.overlap: 8
+window.frameColor: #f7f7f7
+
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:size=8
+menu.title.text.font: Bitstream Vera Sans:size=8
+menu.items.font: Bitstream Vera Sans:size=8

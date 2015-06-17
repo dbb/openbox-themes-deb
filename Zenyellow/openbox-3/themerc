@@ -1,0 +1,59 @@
+!zen yellow openbox theme by crimeboy
+!19jun07.11:41@+0300
+!based on zen flavor yellow gtktheme
+
+menu.title.bg: raised splitvertical gradient
+menu.title.bg.color: #ffd45e
+menu.title.bg.colorTo: #ffb831
+menu.title.text.color: #ffffff
+menu.title.text.justify: left
+
+menu.items.bg: flat solid gradient vertical
+menu.items.bg.color: #999999
+menu.items.bg.colorTo: #101010
+menu.items.text.color: #ffd45e
+menu.items.justify: left
+menu.items.disabled.text.color: #333333
+
+menu.items.active.bg: raised splitvertical gradient
+menu.items.active.bg.color: #ffd45e
+menu.items.active.bg.colorTo: #ffb831
+menu.items.active.text.color: #333333
+
+window.active.title.bg: raised splitvertical gradient
+window.active.title.bg.color: #ffd45e
+window.active.title.bg.colorTo: #ffb831
+window.inactive.title.bg: raised splitvertical gradient
+window.inactive.title.bg.color: #ffd45e
+window.inactive.title.bg.colorTo: #ffb831
+
+window.label.text.justify: left
+window.active.label.bg: parentrelative
+window.active.label.text.color: #333333
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #999999
+
+window.active.handle.bg: raised solid
+window.active.handle.bg.color: #ffd45e
+window.inactive.handle.bg: raised solid
+window.inactive.handle.bg.color: #ffd45e
+
+window.active.grip.bg: parentrelative
+window.inactive.grip.bg: parentrelative
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #333333
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.image.color: #666666
+
+border.color: #000000
+border.width: 0
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 0
+
+window.active.label.text.font:nu:pixelsize=10:shadow=y
+window.inactive.label.text.font:nu:pixelsize=10
+menu.items.font:nu:pixelsize=10
+menu.title.text.font:nu::pixelsize=10:shadow=y

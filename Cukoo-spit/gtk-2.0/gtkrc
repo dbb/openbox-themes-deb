@@ -1,0 +1,64 @@
+# Gorilla gtk theme
+# (c) 2002-2003 Jakub 'jimmac' Steiner <jimmac@ximian.com>
+include "iconrc"
+
+style "default"
+{
+   GtkRange::slider_width = 14
+  GtkRange::stepper_size = 14
+   GtkPaned::handle_size = 6
+   GtkScrollbar::min_slider_length = 30  
+ # xthickness = 1
+ # ythickness = 1
+  
+  bg[NORMAL]      = "#dedfce"
+#  bg[PRELIGHT]	   = "#dedfce"
+  fg[PRELIGHT]    = "#000000"
+  bg[ACTIVE]	   = "#bebfae"
+  bg[INSENSITIVE] = "#eeeee0"
+  bg[SELECTED]    = "#9f9f93"
+
+  base[SELECTED]  = "#9f9f93"
+  text[SELECTED]  = "#ffffff"
+
+engine "thinice"
+  {
+    rect_scrollbar = TRUE
+    mark_type1 = NOTHING
+    mark_type2 = ARROW
+    paned_dots = NONE
+  }
+
+}
+style "menu" 
+{
+   bg[PRELIGHT]	   = "#9f9f9f"
+bg[SELECTED]    = "#9f9f9f"
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "range"
+{
+bg[PRELIGHT]     ="#dedfce"
+bg[ACTIVE]       = "#bebfae"
+}
+widget_class "*Menu*" style "menu"
+
+style "b-range"
+{
+bg[PRELIGHT]     = "#dedfce"
+bg[ACTIVE]       = "#bebfae"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "b-range"
+class "GtkRange" style "range"
+
+style "rox"
+{
+    bg[NORMAL] = "#ffffff"
+bg[ACTIVE]       = "#d5d5d5"
+##bg_pixmap[NORMAL] = "shadowed.png"
+}
+class "Collection" style "rox"

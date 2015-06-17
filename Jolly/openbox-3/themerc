@@ -1,0 +1,123 @@
+!!style.name: jolly
+!!finish me!
+!! Menu settings
+
+menu.title.bg: raised solid
+menu.title.bg.color: #3e71aa
+menu.title.bg.colorTo: #193542
+menu.title.bg.border.color: #547080
+menu.title.text.color: #ffffff
+menu.title.text.justify: left
+
+menu.items.bg: flat solid bevel1
+menu.items.bg.color: #f7f7f7
+menu.items.bg.colorTo: #000000
+menu.items.bg.border.color: #000000
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #565248
+
+menu.items.active.bg: flat border gradient vertical bevel2
+menu.items.active.bg.color: #3e71aa
+menu.items.active.bg.colorTo: #3e71aa
+menu.items.active.bg.border.color: #f6f6f6
+menu.items.active.text.color: #ffffff
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: raised gradient vertical bevel1
+window.active.title.bg.color: #3e71aa
+window.active.title.bg.colorTo: #3e71aa
+window.active.title.bg.border.color: #ffffff
+
+window.active.handle.bg:  raised solid bevel1
+window.active.handle.bg.color: #3e71aa
+window.active.handle.bg.colorTo: #3e71aa
+
+window.active.grip.bg:  parentrelative
+window.active.grip.bg.color: #5189e5
+window.active.grip.bg.colorTo: #316194
+
+window.active.label.bg: parentrelative
+window.active.label.bg.color: #526d8c
+window.active.label.bg.colorTo: #426184
+window.active.label.bg.border.color: #ffffff
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: flat border solid bevel1
+window.active.button.unpressed.bg.color: #f7f7f7
+window.active.button.unpressed.bg.colorTo: #f7f7f7
+window.active.button.unpressed.bg.border.color: #000000
+window.active.button.unpressed.image.color: #444444
+
+window.active.button.pressed.bg: flat border
+window.active.button.pressed.bg.color: #dddddd
+window.active.button.pressed.bg.colorTo: #213542
+window.active.button.pressed.bg.border.color: #222222
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: raised solid
+window.inactive.title.bg.color: #dedede
+window.inactive.title.bg.colorTo: #d2d2d2
+
+window.inactive.handle.bg: flat gradient horizontal bevel1
+window.inactive.handle.bg.color: #f7f7f7
+window.inactive.handle.bg.colorTo: #f6f6f6
+window.inactive.handle.bg.border.color: #000000
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #e6e2de
+window.inactive.grip.bg.colorTo: #cdcac7
+window.inactive.grip.bg.border.color: #000000
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.bg.color: #cdcac7
+window.inactive.label.bg.colorTo: #000000
+window.inactive.label.bg.border.color: #000000
+window.inactive.label.text.color: #acaeac
+
+window.inactive.button.unpressed.bg: flat border solid bevel1
+window.inactive.button.unpressed.bg.color: #dedede
+window.inactive.button.unpressed.bg.colorTo: #000000
+window.inactive.button.unpressed.bg.border.color: #acaeac
+window.inactive.button.unpressed.image.color: #acaeac
+
+window.inactive.button.pressed.bg: flat border gradient vertical bevel1
+window.inactive.button.pressed.bg.color: #929292
+window.inactive.button.pressed.bg.colorTo: #213542
+window.inactive.button.pressed.bg.border.color: #ffffff
+
+!#
+window.active.button.disabled.bg: flat border
+window.active.button.disabled.bg.color: #3e71aa
+window.active.button.disabled.bg.colorTo: #990000
+window.active.button.disabled.image.color: #222222
+window.active.button.disabled.bg.border.color: #222222
+#
+window.inactive.button.disabled.bg: flat border
+window.inactive.button.disabled.bg.color: #dedede
+window.inactive.button.disabled.bg.colorTo: #b4b6b4
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #7b7d7b
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 8
+!! Miscellaneous settings
+border.color: #192028
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=y:shadowtint=20
+window.inactive.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:
+menu.items.font: Bitstream Vera Sans:pixelsize=11
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=9

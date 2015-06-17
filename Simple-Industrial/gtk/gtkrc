@@ -1,0 +1,52 @@
+style "default"
+{
+ 
+
+   fg[NORMAL]        = "#000000"
+  fg[PRELIGHT]      = "#000000"
+   fg[SELECTED]      = "#ffffff"
+ 
+  bg[NORMAL]       = "#e7e7e7"
+ bg[ACTIVE]       = "#bbbbbb"
+  bg[SELECTED]     = "#3e71aa"
+  bg[INSENSITIVE]  = "#dddddd"
+
+ 
+  base[ACTIVE]  = "#dddddd"
+  base[SELECTED]  = "#3e71aa"
+  text[SELECTED]  = "#ffffff"
+  text[ACTIVE]    = { 1.0, 1.0, 1.0 }
+  
+  text[INSENSITIVE]= "#d5d5d5"
+  text[ACTIVE]     = "#000000"
+
+
+
+}
+
+style "menu" 
+{
+	  bg[PRELIGHT]    = "#3e71aa"
+  bg[SELECTED]    = "#3e71aa"
+
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "range"
+{
+bg[PRELIGHT]     = "#e7e7e7"
+bg[ACTIVE]       = "#bbbbbb"
+}
+widget_class "*Menu*" style "menu"
+
+style "b-range"
+{
+bg[PRELIGHT]     = "#e7e7e7"
+bg[ACTIVE]       = "#dddddd"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "b-range"
+class "GtkRange" style "range"
+

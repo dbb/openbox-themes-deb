@@ -1,0 +1,71 @@
+style "default"
+{
+ # xthickness = 2
+  #ythickness = 0
+  GtkRange::slider_width = 12
+  GtkRange::stepper_size = 12
+   GtkPaned::handle_size = 6
+   GtkScrollbar::min_slider_length = 30  
+
+   fg[NORMAL]        = "#000000"
+   fg[PRELIGHT]      = "#000000"
+   fg[SELECTED]      = "#ffffff"
+ 
+  bg[NORMAL]       = "#e6e6e6"
+  bg[ACTIVE]       = "#d5d5d5"
+  bg[SELECTED]     = "#333333" 
+  bg[INSENSITIVE]  = "#dddddd"
+
+  base[SELECTED] = "#979797"
+  text[SELECTED]  = "#ffffff"
+  base[ACTIVE]    = "#979797"
+  text[ACTIVE]    =  "#dddddd"
+  
+  text[INSENSITIVE]= "#747474"
+  text[ACTIVE]     = "#000000"
+ 
+engine "thinice"
+  {
+    rect_scrollbar = TRUE
+    mark_type1 = NOTHING
+    mark_type2 = ARROW
+    paned_dots = NONE
+  }
+
+}
+
+style "menu" 
+{
+
+  #xthickness = 1
+  ythickness = 2
+  bg[SELECTED]    = "#979797"
+  bg[PRELIGHT]    = "#979797"
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "range"
+{
+bg[PRELIGHT]     = "#e6e6e6"
+bg[ACTIVE]       = "#d5d5d5"
+}
+widget_class "*Menu*" style "menu"
+
+style "b-range"
+{
+bg[PRELIGHT]     = "#e6e6e6"
+bg[ACTIVE]       = "#dddddd"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "b-range"
+class "GtkRange" style "range"
+
+style "rox"
+{
+#    bg[NORMAL] = "#ffffff"
+bg[ACTIVE]       = "#e6e6e6"
+bg_pixmap[NORMAL] = "window-pattern.png"
+}
+class "Collection" style "rox"

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Simple-Green
+Type=X-GNOME-Metatheme
+Comment=feh
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Simple-Green
+MetacityTheme=Mist
+IconTheme=Industrial-Light

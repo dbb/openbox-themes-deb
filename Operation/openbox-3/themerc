@@ -1,0 +1,74 @@
+menu.title.bg:			flat crossdiagonal gradient
+menu.title.bg.color:		rgb:6/9/c
+menu.title.bg.colorTo:		rgb:3/48/6
+menu.title.text.color:		white
+menu.title.text.justify:		right
+
+menu.items.bg:			flat crossdiagonal gradient
+menu.items.bg.color:		grey50
+menu.items.bg.colorTo:		grey80
+menu.items.text.color:		grey20
+menu.items.disabled.text.color:	grey40
+menu.items.justify:		center
+
+menu.items.active.bg:			flat crossdiagonal gradient
+menu.items.active.bg.color:		rgb:6/9/c
+menu.items.active.bg.colorTo:		rgb:3/48/6
+menu.items.active.text.color:		white
+menu.bullet.image.color: grey20
+menu.bullet.selected.image.color: #ffffff
+
+
+window.active.title.bg:		flat crossdiagonal gradient
+window.active.title.bg.color:	rgb:6/9/c
+window.active.title.bg.colorTo:	rgb:3/48/6
+window.inactive.title.bg:		flat diagonal gradient
+window.inactive.title.bg.color:	grey50
+window.inactive.title.bg.colorTo:	grey20
+
+window.active.label.bg:		parentrelative
+window.active.label.text.color:	white
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	grey60
+
+window.active.button.unpressed.bg:		parentrelative
+window.active.button.unpressed.image.color:	grey85
+window.inactive.button.unpressed.bg:		parentrelative
+window.inactive.button.unpressed.image.color:	grey60
+
+window.active.handle.bg:		flat crossdiagonal gradient
+window.active.handle.bg.color:	rgb:6/9/c
+window.active.handle.bg.colorTo:	rgb:3/48/6
+window.inactive.handle.bg:		flat diagonal gradient
+window.inactive.handle.bg.color:	grey50
+window.inactive.handle.bg.colorTo:	grey20
+#
+window.active.button.disabled.bg: flat border
+window.active.button.disabled.bg.border.color: #ffffff
+window.inactive.button.disabled.bg: flat border
+window.inactive.button.disabled.bg.border.color: #ffffff
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #ffffff
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #ffffff
+
+window.active.grip.bg:		parentrelative
+window.inactive.grip.bg:		parentrelative
+
+window.active.client.color:	rgb:6/9/c
+window.inactive.client.color:	grey50
+
+window.label.text.justify:			right
+
+
+border.color:			rgb:2/3/4
+
+padding.width:			1
+borderWidth:			1
+window.handle.width:			4
+menu.overlap: 8
+!!# font me!
+window.active.label.text.font: Bitstream Vera Sans:bold:pixelsize=10
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=10
+menu.items.font: Bitstream Vera Sans:pixelsize=10

@@ -1,0 +1,122 @@
+!! Menu settings
+
+menu.title: flat gradient horizontal interlaced bevel1
+menu.title.color: black
+menu.title.colorTo: #789094
+menu.title.borderColor: black
+menu.title.textColor: white
+menu.title.justify: left
+
+menu.frame: flat gradient diagonal bevel1
+menu.frame.color: #c0c4c8
+menu.frame.colorTo: #707478
+menu.frame.borderColor: #1a1a1a
+menu.frame.textColor: #1a1a1a
+menu.frame.justify: left
+menu.frame.disableColor: black
+
+menu.hilite: flat gradient horizontal interlaced bevel1
+menu.hilite.color: black
+menu.hilite.colorTo: #707088
+menu.hilite.borderColor: #000000
+menu.hilite.textColor: white
+
+!! General window settings
+window.justify: left
+
+!! focused window settings
+window.frame.focusColor: #bec1c8
+
+#window.title.focus: flat gradient vertical bevel1
+#window.title.focus.color: #c0c4c8
+#window.title.focus.colorTo: #a0a4a8
+#window.title.focus.borderColor: #000000
+
+window.handle.focus: raised gradient diagonal bevel1
+window.handle.focus.color: #c0c4c8
+window.handle.focus.colorTo: #b4c1c6
+window.handle.focus.borderColor: #000000
+
+window.grip.focus: raised gradient diagonal bevel1
+window.grip.focus.color: #3e3939
+window.grip.focus.colorTo: #789094
+window.grip.focus.borderColor: #000000
+
+window.title.focus: raised gradient diagnal interlaced bevel1
+window.title.focus.color: #2f6874
+window.title.focus.colorTo: #90b7ad
+window.label.focus.textColor: white
+window.label.focus: parentrelative
+
+window.button.focus: raised gradient vertical bevel1
+window.button.focus.color: #bcc0c4
+window.button.focus.colorTo: #a4a8ac
+window.button.focus.borderColor: #000000
+window.button.focus.picColor: #000000
+
+window.button.pressed.focus: flat gradient diagonal bevel1
+window.button.pressed.focus.color: #606468
+window.button.pressed.focus.colorTo: #808488
+window.button.pressed.focus.borderColor: #000000
+
+!! unfocused window settings
+window.frame.unfocusColor: #404850
+
+window.title.unfocus: flat gradient vertical bevel1
+window.title.unfocus.color: #a0a4a8
+window.title.unfocus.colorTo: #808488
+window.title.unfocus.borderColor: #000000
+
+window.handle.unfocus: raised gradient diagonal bevel1
+window.handle.unfocus.color: #a0a4a8
+window.handle.unfocus.colorTo: #808488
+window.handle.unfocus.borderColor: #000000
+
+window.grip.unfocus: raised gradient diagonal bevel1
+window.grip.unfocus.color: #3e3939
+window.grip.unfocus.colorTo: #606078
+window.grip.unfocus.borderColor: #000000
+
+window.label.unfocus: flat gradient diagonal interlaced bevel1
+window.label.unfocus.color: black
+window.label.unfocus.colorTo: #606078
+window.label.unfocus.borderColor: #000000
+window.label.unfocus.textColor: #a0a4a8
+
+window.button.unfocus: flat gradient vertical bevel1
+window.button.unfocus.color: #9ca0a4
+window.button.unfocus.colorTo: #84888c
+window.button.unfocus.borderColor: #000000
+window.button.unfocus.picColor: #404448
+
+window.button.pressed.unfocus: flat gradient diagonal bevel1
+window.button.pressed.unfocus.color: #606468
+window.button.pressed.unfocus.colorTo: #808488
+window.button.pressed.unfocus.borderColor: #000000
+
+!#buttons new
+window.button.disabled.focus: parentrelative
+window.button.disabled.focus.picColor: #A2A2A2
+
+window.button.disabled.unfocus: parentrelative
+window.button.disabled.unfocus.picColor:  #a2a2a2
+
+window.button.toggled.focus: parentrelative
+window.button.toggled.focus.picColor: #000000
+
+window.button.toggled.unfocus: parentrelative
+window.button.toggled.unfocus.picColor: #000000
+
+!! Global width settings
+borderWidth: 1
+bevelWidth: 1
+handleWidth: 3
+frameWidth: 0
+
+!! Miscellaneous settings
+borderColor: black
+
+!! font me!
+window.title.xftfont: Bitstream Vera Sans:pixelsize=9
+menu.frame.xftfont: National First Font:pixelsize=15
+menu.title.xftfont: Borzoi:pixelsize=10

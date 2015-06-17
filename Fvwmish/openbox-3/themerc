@@ -1,0 +1,124 @@
+!!what?? this is some sort of port by Klaus Umbach, i do not know much more but you can see the screeny 
+!!i took this from here: http://fvwm.org/screenshots/desktops/Klaus_Umbach-1280x1024/screenshot.png
+
+menu.title.bg: flat gradient vertical bevel1
+menu.title.bg.color: #295d94
+menu.title.bg.colorTo: #4b9bec
+menu.title.bg.border.color: #000000
+menu.title.text.color: #ffffff
+menu.title.text.justify: center
+
+menu.items.bg: flat solid bevel1
+menu.items.bg.color: #d6d6d6
+menu.items.bg.colorTo: #000000
+menu.items.bg.border.color: #000000
+menu.items.text.color: #000000
+menu.items.justify: left
+menu.items.disabled.text.color: #565248
+
+menu.items.active.bg: flat gradient vertical bevel1
+menu.items.active.bg.color: #295d94
+menu.items.active.bg.colorTo: #4b9bec
+menu.items.active.bg.border.color: #f6f6f6
+menu.items.active.text.color: #ffffff
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+window.label.text.justify: center
+
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: raised gradient vertical bevel1
+window.active.title.bg.color: #888888
+window.active.title.bg.colorTo: #d6d6d6
+window.active.title.bg.border.color: #000000
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #888888
+window.active.handle.bg.colorTo: #d6d6d6
+window.active.handle.bg.border.color: #f6f6f6
+
+window.active.grip.bg: parentrelative
+window.active.grip.bg.color: #f6f6f6
+window.active.grip.bg.colorTo: #dadada
+window.active.grip.bg.border.color: #000000
+
+
+#green
+window.active.label.bg: raised gradient vertical bevel1
+window.active.label.bg.color: #295d94
+window.active.label.bg.colorTo:  #4b9bec
+window.active.label.bg.border.color: #000000
+window.active.label.text.color: #ffffff
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.bg.color: #f6f6f6
+window.active.button.unpressed.bg.colorTo: #000000
+window.active.button.unpressed.bg.border.color: #000000
+window.active.button.unpressed.image.color: #ffffff
+
+window.active.button.pressed.bg: sunken solid bevel1
+window.active.button.pressed.bg.color: #e6e2de
+window.active.button.pressed.bg.colorTo: #000000
+window.active.button.pressed.bg.border.color: #000000
+
+window.inactive.client.color: #f7f7f7
+
+window.inactive.title.bg: raised gradient vertical bevel1
+window.inactive.title.bg.color: #888888
+window.inactive.title.bg.colorTo: #d6d6d6
+window.inactive.title.bg.border.color: #000000
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #888888
+window.inactive.handle.bg.colorTo: #f6f6f6
+window.inactive.handle.bg.border.color: #f6f6f6
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #f6f6f6
+window.inactive.grip.bg.colorTo: #dadada
+window.inactive.grip.bg.border.color: #000000
+
+window.inactive.label.bg: raised gradient vertical bevel1
+window.inactive.label.bg.color: #878585
+window.inactive.label.bg.colorTo: #9f9f9f
+window.inactive.label.bg.border.color: #222222
+window.inactive.label.text.color: #ffffff
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.bg.color: #f6f6f6
+window.inactive.button.unpressed.bg.colorTo: #000000
+window.inactive.button.unpressed.bg.border.color: #868074
+window.inactive.button.unpressed.image.color: #ffffff
+
+window.inactive.button.pressed.bg: sunken solid bevel1
+window.inactive.button.pressed.bg.color: #e6e2de
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.pressed.bg.border.color: #000000
+
+!#buttons new
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #990000
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color:  #990000
+
+window.active.button.toggled.bg: parentrelative
+window.active.button.toggled.image.color: #f6f6f6
+
+window.inactive.button.toggled.bg: parentrelative
+window.inactive.button.toggled.image.color: #f6f6f6
+
+borderWidth: 1
+padding.width: 0
+
+!!maybe you want a handle??? it is not so bad set to 1 or 2 or something
+window.handle.width: 1
+window.client.padding.width: 0
+border.color: #888888
+menu.overlap: 8
+
+window.active.label.text.font:Bitstream Vera Sans:pixelsize=10:bold:shadow=y:shadowtint=100:shadowoffset=1
+window.inactive.label.text.font:Bitstream Vera Sans:pixelsize=10:bold
+!#what the hell you don't have this font installed do you?
+menu.items.font: Bitstream Vera Sans:pixelsize=10
+menu.title.text.font: Bitstream Vera Sans:pixelsize=10:bold:shadow=y:shadowtint=100

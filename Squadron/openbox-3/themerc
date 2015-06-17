@@ -1,0 +1,105 @@
+
+menu.title.bg: flat
+menu.title.bg.color: #666600
+menu.title.text.color: #ffcc00
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #999966
+! menu.items.bg.border.color: #dedede
+menu.items.text.color: #ffffff
+menu.items.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #666600
+! menu.items.active.bg.border.color: #146d8d
+menu.items.active.text.color: #ffcc00
+
+!! General window settings
+window.label.text.justify: right
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #666600
+! window.active.title.bg.border.color: #e6e6e6
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #666600
+
+window.active.grip.bg: flat
+window.active.grip.bg.color: #ffcc00
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #ffcc00
+
+window.active.button.unpressed.bg: parentrelative
+! window.active.button.unpressed.bg.color: #999966
+window.active.button.unpressed.image.color: #ffcc00
+
+window.active.button.pressed.bg: parentrelative
+! window.active.button.pressed.bg.color: parentrelative
+window.active.button.pressed.image.color: #ffffff
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #999966
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #999966
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #666600
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #dedede
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #dedede
+
+! does this ever happen?
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg.colorTo: #ffffff
+
+!#buttons new
+window.active.button.disabled.bg: flat
+window.active.button.disabled.bg.color: #20587b
+window.active.button.disabled.image.color: #234372
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.bg.color: #20587b
+window.inactive.button.disabled.image.color: #20587b
+
+window.active.button.toggled.bg: flat vertical gradient
+window.active.button.toggled.bg.color: #c6d5c0
+window.active.button.toggled.bg.colorTo: #8b9687
+window.active.button.toggled.image.color: #ffffff
+
+window.inactive.button.toggled.bg: flat vertical gradient
+window.inactive.button.toggled.bg.color: #d6d6d6
+window.inactive.button.toggled.bg.colorTo: #9a9a9a
+window.inactive.button.toggled.image.color: #969696
+
+!! Global width settings
+border.width: 3
+padding.width: 2
+padding.height: 1
+window.handle.width: 3
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: #333300
+
+!! fonts
+window.active.label.text.font: Bitstream Vera Sans:bold:size=6
+window.inactive.label.text.font: Bitstream Vera Sans:bold:size=6
+menu.items.font:  Trebuchet Ms:size=6
+menu.title.text.font: Trebuchet Ms:bold:size=6
+

@@ -1,0 +1,13 @@
+#/bin/sh
+#um filthy, i need to die for this:
+#baby steps to generation of whole ob theme from the gtkrc...
+
+#accent/hilight of all theme
+perl -i -pe 's/#4a5e7d/#to/' */*rc
+#hover/press of ob theme
+perl -i -pe 's/#7f92ae/#to/' openbox-3/themerc
+#bg[NORMAL]/menu colour
+perl -i -pe 's/#d8d4d4/#to/' openbox-3/themerc
+
+
+

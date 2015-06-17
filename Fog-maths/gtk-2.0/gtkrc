@@ -1,0 +1,82 @@
+style "default"
+{
+   #GtkScrollbar::has_backward_stepper = 0
+   #GtkScrollbar::has_secondary_backward_stepper = 1
+  # GtkScrollbar::has_secondary_forward_stepper = 1
+  GtkRange::slider_width = 14
+  GtkRange::stepper_size = 14
+   GtkPaned::handle_size = 6
+   GtkScrollbar::min_slider_length = 30  
+
+   fg[NORMAL]        = "#000000"
+  # fg[ACTIVE]        = "#00306b"
+  # fg[INSENSITIVE]   = "#acacac"
+  fg[PRELIGHT]      = "#000000"
+   fg[SELECTED]      = "#ffffff"
+ 
+  bg[NORMAL]       = "#ebeaea"
+ bg[ACTIVE]       = "#d5d5d5"
+ #bg[PRELIGHT]     = "#e6e2e6" 
+  bg[SELECTED]     = "#4a5e7d"
+  bg[INSENSITIVE]  = "#dddddd"
+
+ 
+  base[SELECTED]  = "#4a5e7d"
+  text[SELECTED]  = "#ffffff"
+ # base[SELECTED]  = { 0.30,0.35,0.65 }
+  #text[SELECTED]  = { 1.0, 1.0, 1.0 }
+ # base[ACTIVE]    = { 0.6, 0.65, 0.75 }
+  text[ACTIVE]    = { 1.0, 1.0, 1.0 }
+  
+  text[INSENSITIVE]= "#d5d5d5"
+  #text[SELECTED]   = "#000000"
+  text[ACTIVE]     = "#000000"
+  
+  #font_name = "Trebuchet MS 9"
+ 
+engine "thinice"
+  {
+    rect_scrollbar = TRUE
+    mark_type1 = NOTHING
+    mark_type2 = ARROW
+    paned_dots = NONE
+  }
+}
+
+style "menu" 
+{
+ #xthickness = 1
+  # ythickness = 2
+	  bg[PRELIGHT]    = "#4a5e7d"
+  bg[SELECTED]    = "#4a5e7d"
+
+  fg[PRELIGHT]  = "#ffffff"
+  fg[SELECTED]  = "#ffffff"
+}
+
+style "range"
+{
+bg[PRELIGHT]     = "#ebeaea"
+bg[ACTIVE]       = "#d5d5d5"
+}
+widget_class "*Menu*" style "menu"
+
+style "b-range"
+{
+bg[PRELIGHT]     = "#ebeaea"
+bg[ACTIVE]       = "#dddddd"
+}
+
+class "GtkWidget" style "default"
+class "GtkButton" style "b-range"
+class "GtkRange" style "range"
+#class "GtkWidget" style "b-range"
+#widget_class "*.GtkFrame.GtkLabel" style "b-range"
+
+style "rox"
+{
+    bg[NORMAL] = "#ffffff"
+bg[ACTIVE]       = "#d5d5d5"
+##bg_pixmap[NORMAL] = "shadowed.png"
+}
+class "Collection" style "rox"

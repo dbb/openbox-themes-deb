@@ -1,0 +1,93 @@
+!! merry sux
+!! i'd appreciate you *not* using this for fluxbox, kthx :)
+
+menu.title:                             raised solid bevel1 border
+menu.title.color:      		            #d1940c
+
+menu.title.textColor:                   white
+
+menu.frame:                     	        raised solid bevel1 border
+menu.frame.color:              	        #d8d4d4
+menu.frame.textColor:                   rgb:40/44/48
+menu.frame.foregroundColor:             #000000
+
+menu.active:                            flat solid bevel1
+menu.active.color:                  #d1940c
+menu.active.textColor:                 white
+
+menu.bullet:                            triangle
+menu.bullet.position:                   right
+
+menu.frame.disabledColor:               black
+
+menu.frame.alignment:                   left
+menu.title.alignment:                   left
+
+! omg! focused window
+window.title.focus:                     raised solid bevel1
+window.title.focus.color:          #d1940c
+
+window.label.focus:                     parentrelative
+window.label.focus.textColor:           white
+
+window.handle.focus:                    flat solid
+window.handle.focus.color:              #d8d4d4
+
+window.grip.focus:                      flat solid
+window.grip.focus.color:	        #d8d4d4
+
+window.button.focus:                    parentrelative
+window.button.focus.picColor:           #ffffff
+
+window.button.pressed:                  flat solid
+window.button.pressed.color:            #ab7b14
+
+window.frame.focusColor:                #1a1a1a
+
+! wtf! unfocused window
+window.title.unfocus:                   flat solid bevel1
+window.title.unfocus.color:             #d8d4d4
+
+window.label.unfocus:                   parentrelative
+window.label.unfocus.textColor:         #7b7d7b
+
+window.handle.unfocus:                 flat solid
+window.handle.unfocus.color:           #d8d4d4
+
+window.grip.unfocus:                   flat solid
+window.grip.unfocus.color:	       #d8d4d4
+
+window.button.unfocus:                  parentrelative
+window.button.unfocus.picColor:         #7b7d7b
+
+window.frame.unfocusColor:              #f6f6f6
+
+window.alignment:                       left
+window.frameWidth:                      0
+window.handleHeight:                    4
+
+toolbar:                               raised solid bevel1
+toolbar.color:                         #d8d4d4
+
+toolbar.label:                         parentrelative
+toolbar.windowLabel:                    parentrelative
+toolbar.clock:                          parentrelative
+toolbar.button:                         parentrelative
+toolbar.*.textColor: 	               #000000
+
+toolbar.button.pressed:                 flat solid
+     toolbar.button.pressed.color:       #c8c8c8
+
+toolbar.button.picColor:                #000000
+
+toolbar.alignment:                      center
+
+! font me
+*font:			Bitstream Vera Sans-8
+
+*borderColor:                            #333333
+*borderWidth:                            1
+bevelWidth:                             1
+!# this is not good people
+rootCommand:                            bsetroot -mod 8 8 -fg "#8b8d83" -bg "#a9aba3"
+
