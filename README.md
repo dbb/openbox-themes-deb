@@ -16,6 +16,9 @@ whole collection is not. Thus I created this archive to serve as a mirror of
 these classic themes.
 
 ## Installation
+
+*Note: some of these theme directories also include GTK2 themes or other artifacts.*
+
 For a quick 'n' dirty installation of all 99 themes, just run the following:
 
 ```bash
