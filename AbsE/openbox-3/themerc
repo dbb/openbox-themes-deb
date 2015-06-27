@@ -67,7 +67,7 @@ window.active.button.pressed.bg.border.color: #000000
 window.active.button.pressed.image.color: black
 
 window.active.button.toggled.bg: parentrelative
-window.active.button.toggled.bg.color: #0000000
+window.active.button.toggled.bg.color: #000000
 window.active.button.toggled.bg.colorTo: #000000
 window.active.button.toggled.bg.border.color: #000000
 window.active.button.toggled.image.color: grey85
